@@ -1,9 +1,0 @@
-c:\users\antoine\documents\visual studio 2010\Projects\WindowsGame2\WindowsGame2\WindowsGame2\bin\x86\Debug\Content\cible.xnb
-c:\users\antoine\documents\visual studio 2010\Projects\WindowsGame2\WindowsGame2\WindowsGame2\bin\x86\Debug\Content\reticule_final.xnb
-c:\users\antoine\documents\visual studio 2010\Projects\WindowsGame2\WindowsGame2\WindowsGame2\bin\x86\Debug\WindowsGame2.exe
-c:\users\antoine\documents\visual studio 2010\Projects\WindowsGame2\WindowsGame2\WindowsGame2\bin\x86\Debug\WindowsGame2.pdb
-c:\users\antoine\documents\visual studio 2010\Projects\WindowsGame2\WindowsGame2\WindowsGame2\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
-c:\users\antoine\documents\visual studio 2010\Projects\WindowsGame2\WindowsGame2\WindowsGame2\obj\x86\Debug\WindowsGame2.exe
-c:\users\antoine\documents\visual studio 2010\Projects\WindowsGame2\WindowsGame2\WindowsGame2\obj\x86\Debug\WindowsGame2.pdb
-c:\users\antoine\documents\visual studio 2010\Projects\WindowsGame2\WindowsGame2\WindowsGame2\bin\x86\Debug\Content\police.xnb
-C:\Users\Antoine\documents\visual studio 2010\Projects\WindowsGame2\WindowsGame2\WindowsGame2\obj\x86\Debug\WindowsGame2.csprojResolveAssemblyReference.cache

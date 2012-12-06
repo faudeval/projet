@@ -1,0 +1,16 @@
+c:\users\antoine\documents\visual studio 2010\Projects\WindowsGame3\WindowsGame3\WindowsGame3\bin\x86\Debug\WindowsGame3.exe
+c:\users\antoine\documents\visual studio 2010\Projects\WindowsGame3\WindowsGame3\WindowsGame3\bin\x86\Debug\WindowsGame3.pdb
+c:\users\antoine\documents\visual studio 2010\Projects\WindowsGame3\WindowsGame3\WindowsGame3\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+c:\users\antoine\documents\visual studio 2010\Projects\WindowsGame3\WindowsGame3\WindowsGame3\obj\x86\Debug\WindowsGame3.exe
+c:\users\antoine\documents\visual studio 2010\Projects\WindowsGame3\WindowsGame3\WindowsGame3\obj\x86\Debug\WindowsGame3.pdb
+c:\users\antoine\documents\visual studio 2010\Projects\WindowsGame3\WindowsGame3\WindowsGame3\bin\x86\Debug\Content\arriere_plan_800_600.xnb
+c:\Users\Antoine\Documents\Visual Studio 2010\Projects\WindowsGame3\WindowsGame3\WindowsGame3\bin\x86\Debug\Content\police.xnb
+c:\Users\Antoine\Documents\Visual Studio 2010\Projects\WindowsGame3\WindowsGame3\WindowsGame3\bin\x86\Debug\Content\bouton2Left.xnb
+c:\Users\Antoine\Documents\Visual Studio 2010\Projects\WindowsGame3\WindowsGame3\WindowsGame3\bin\x86\Debug\Content\bouton2Motif.xnb
+c:\Users\Antoine\Documents\Visual Studio 2010\Projects\WindowsGame3\WindowsGame3\WindowsGame3\bin\x86\Debug\Content\bouton2Right.xnb
+c:\Users\Antoine\Documents\Visual Studio 2010\Projects\WindowsGame3\WindowsGame3\WindowsGame3\bin\x86\Debug\Content\boutonLeft.xnb
+c:\Users\Antoine\Documents\Visual Studio 2010\Projects\WindowsGame3\WindowsGame3\WindowsGame3\bin\x86\Debug\Content\boutonMotif.xnb
+c:\Users\Antoine\Documents\Visual Studio 2010\Projects\WindowsGame3\WindowsGame3\WindowsGame3\bin\x86\Debug\Content\boutonRight.xnb
+C:\Users\Antoine\documents\visual studio 2010\Projects\WindowsGame3\WindowsGame3\WindowsGame3\obj\x86\Debug\WindowsGame3.csprojResolveAssemblyReference.cache
+H:\Documents\faud\Projet\dépôt privé github\Programmes\WindowsGame3\WindowsGame3\WindowsGame3\obj\x86\Debug\WindowsGame3.exe
+H:\Documents\faud\Projet\dépôt privé github\Programmes\WindowsGame3\WindowsGame3\WindowsGame3\obj\x86\Debug\WindowsGame3.pdb
