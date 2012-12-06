@@ -1,0 +1,8 @@
+C:\Users\Antoine\documents\visual studio 2010\Projects\WindowsGame2\WindowsGame2\WindowsGame2\bin\x86\Release\Content\cible.xnb
+C:\Users\Antoine\documents\visual studio 2010\Projects\WindowsGame2\WindowsGame2\WindowsGame2\bin\x86\Release\Content\reticule_final.xnb
+C:\Users\Antoine\documents\visual studio 2010\Projects\WindowsGame2\WindowsGame2\WindowsGame2\bin\x86\Release\Content\police.xnb
+C:\Users\Antoine\documents\visual studio 2010\Projects\WindowsGame2\WindowsGame2\WindowsGame2\bin\x86\Release\WindowsGame2.exe
+C:\Users\Antoine\documents\visual studio 2010\Projects\WindowsGame2\WindowsGame2\WindowsGame2\bin\x86\Release\WindowsGame2.pdb
+C:\Users\Antoine\documents\visual studio 2010\Projects\WindowsGame2\WindowsGame2\WindowsGame2\obj\x86\Release\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Antoine\documents\visual studio 2010\Projects\WindowsGame2\WindowsGame2\WindowsGame2\obj\x86\Release\WindowsGame2.exe
+C:\Users\Antoine\documents\visual studio 2010\Projects\WindowsGame2\WindowsGame2\WindowsGame2\obj\x86\Release\WindowsGame2.pdb
