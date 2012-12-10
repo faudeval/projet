@@ -1,0 +1,9 @@
+C:\Users\Jason\Documents\Visual Studio 2010\Projects\WindowsGame3\WindowsGame3\WindowsGame3\bin\x86\Release\Content\balle.xnb
+C:\Users\Jason\Documents\Visual Studio 2010\Projects\WindowsGame3\WindowsGame3\WindowsGame3\bin\x86\Release\Content\raquette.xnb
+C:\Users\Jason\Documents\Visual Studio 2010\Projects\WindowsGame3\WindowsGame3\WindowsGame3\bin\x86\Release\Content\SpriteFont1.xnb
+C:\Users\Jason\Documents\Visual Studio 2010\Projects\WindowsGame3\WindowsGame3\WindowsGame3\bin\x86\Release\WindowsGame3.exe
+C:\Users\Jason\Documents\Visual Studio 2010\Projects\WindowsGame3\WindowsGame3\WindowsGame3\bin\x86\Release\WindowsGame3.pdb
+C:\Users\Jason\Documents\Visual Studio 2010\Projects\WindowsGame3\WindowsGame3\WindowsGame3\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Users\Jason\Documents\Visual Studio 2010\Projects\WindowsGame3\WindowsGame3\WindowsGame3\obj\x86\Release\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Jason\Documents\Visual Studio 2010\Projects\WindowsGame3\WindowsGame3\WindowsGame3\obj\x86\Release\WindowsGame3.exe
+C:\Users\Jason\Documents\Visual Studio 2010\Projects\WindowsGame3\WindowsGame3\WindowsGame3\obj\x86\Release\WindowsGame3.pdb
