@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>DuckHunt\cible.png</Source>
+      <Name>DuckHunt\cible</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Antoine\Documents\Visual Studio 2010\Projects\MiniJeux\Global\Global\bin\x86\Debug\Content\DuckHunt\cible.xnb</Output>
+      <Time>2012-12-11T17:03:56.9714151+01:00</Time>
+    </Item>
+    <Item>
+      <Source>DuckHunt\reticule_final.png</Source>
+      <Name>DuckHunt\reticule_final</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Antoine\Documents\Visual Studio 2010\Projects\MiniJeux\Global\Global\bin\x86\Debug\Content\DuckHunt\reticule_final.xnb</Output>
+      <Time>2012-12-11T17:03:56.9754153+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Pong\balle.png</Source>
+      <Name>Pong\balle</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Antoine\Documents\Visual Studio 2010\Projects\MiniJeux\Global\Global\bin\x86\Debug\Content\Pong\balle.xnb</Output>
+      <Time>2012-12-11T17:04:24.121968+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Pong\raquette.png</Source>
+      <Name>Pong\raquette</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Antoine\Documents\Visual Studio 2010\Projects\MiniJeux\Global\Global\bin\x86\Debug\Content\Pong\raquette.xnb</Output>
+      <Time>2012-12-11T17:04:24.1239681+01:00</Time>
+    </Item>
+    <Item>
+      <Source>DuckHunt\police.spritefont</Source>
+      <Name>DuckHunt\police</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Antoine\Documents\Visual Studio 2010\Projects\MiniJeux\Global\Global\bin\x86\Debug\Content\DuckHunt\police.xnb</Output>
+      <Time>2012-12-11T17:03:56.9734152+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Pong\SpriteFont1.spritefont</Source>
+      <Name>Pong\SpriteFont1</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Antoine\Documents\Visual Studio 2010\Projects\MiniJeux\Global\Global\bin\x86\Debug\Content\Pong\SpriteFont1.xnb</Output>
+      <Time>2012-12-11T17:04:24.1269683+01:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>HiDef</TargetProfile>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>C:\Users\Antoine\Documents\Visual Studio 2010\Projects\MiniJeux\Global\GlobalContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Antoine\Documents\Visual Studio 2010\Projects\MiniJeux\Global\Global\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Antoine\Documents\Visual Studio 2010\Projects\MiniJeux\Global\GlobalContent\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Antoine\Documents\Visual Studio 2010\Projects\MiniJeux\Global\Global\bin\x86\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2010-08-23T12:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2010-08-23T12:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2010-08-23T12:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2010-08-23T12:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2010-08-23T12:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2010-08-23T12:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2012-10-16T19:55:21.2809433+02:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>
