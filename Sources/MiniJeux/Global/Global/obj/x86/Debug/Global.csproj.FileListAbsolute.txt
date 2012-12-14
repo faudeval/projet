@@ -10,3 +10,5 @@ C:\Users\Antoine\Documents\Visual Studio 2010\Projects\MiniJeux\Global\Global\bi
 C:\Users\Antoine\Documents\Visual Studio 2010\Projects\MiniJeux\Global\Global\bin\x86\Debug\Content\Pong\raquette.xnb
 C:\Users\Antoine\Documents\Visual Studio 2010\Projects\MiniJeux\Global\Global\bin\x86\Debug\Content\DuckHunt\police.xnb
 C:\Users\Antoine\Documents\Visual Studio 2010\Projects\MiniJeux\Global\Global\bin\x86\Debug\Content\Pong\SpriteFont1.xnb
+C:\Users\toshiba\Desktop\IUT S3\Projet\projet\Sources\MiniJeux\Global\Global\obj\x86\Debug\Global.exe
+C:\Users\toshiba\Desktop\IUT S3\Projet\projet\Sources\MiniJeux\Global\Global\obj\x86\Debug\Global.pdb

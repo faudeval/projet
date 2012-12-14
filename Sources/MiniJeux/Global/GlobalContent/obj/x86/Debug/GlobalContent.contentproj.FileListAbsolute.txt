@@ -1,1 +1,2 @@
 C:\Users\Antoine\documents\visual studio 2010\Projects\MiniJeux\Global\GlobalContent\obj\x86\Debug\GlobalContent.contentprojResolveAssemblyReference.cache
+C:\Users\toshiba\Desktop\IUT S3\Projet\projet\Sources\MiniJeux\Global\GlobalContent\obj\x86\Debug\ResolveAssemblyReference.cache

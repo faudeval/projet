@@ -1,2 +1,3 @@
 C:\Users\Antoine\documents\visual studio 2010\Projects\WindowsGame3\WindowsGame3\WindowsGame3Content\obj\x86\Debug\WindowsGame3Content.contentprojResolveAssemblyReference.cache
 H:\Documents\faud\Projet\dépôt privé github\Programmes\WindowsGame3\WindowsGame3\WindowsGame3Content\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\toshiba\Desktop\IUT S3\Projet\projet\Sources\WindowsGame3\WindowsGame3\WindowsGame3Content\obj\x86\Debug\ResolveAssemblyReference.cache
