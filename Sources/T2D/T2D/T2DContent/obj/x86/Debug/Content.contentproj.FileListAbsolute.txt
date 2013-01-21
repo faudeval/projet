@@ -1,3 +1,4 @@
 Q:\T2D\T2D\T2DContent\obj\x86\Debug\ResolveAssemblyReference.cache
 F:\T2D\T2D\T2DContent\obj\x86\Debug\ResolveAssemblyReference.cache
 H:\Documents\XNA\TOWER DEFENSE\T2D\T2D\T2DContent\obj\x86\Debug\ResolveAssemblyReference.cache
+H:\Documents\faud\Projet\dépôt privé github\Sources\T2D\T2D\T2DContent\obj\x86\Debug\ResolveAssemblyReference.cache
