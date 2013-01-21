@@ -1,0 +1,1 @@
+http://msdn.microsoft.com/fr-fr/library/vstudio/ee942965.aspx#installshield

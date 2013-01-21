@@ -1,0 +1,7 @@
+C:\Users\Antoine\Projet\SpaceSurvival_Optimise\SpaceSurvival_Optimise\SpaceSurvival_Optimise\obj\x86\Debug\SpaceSurvival_Optimise.csprojResolveAssemblyReference.cache
+C:\Users\Antoine\Projet\SpaceSurvival_Optimise\SpaceSurvival_Optimise\SpaceSurvival_Optimise\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Antoine\Projet\SpaceSurvival_Optimise\SpaceSurvival_Optimise\SpaceSurvival_Optimise\bin\x86\Debug\SpaceSurvival_Optimise.exe
+C:\Users\Antoine\Projet\SpaceSurvival_Optimise\SpaceSurvival_Optimise\SpaceSurvival_Optimise\bin\x86\Debug\SpaceSurvival_Optimise.pdb
+C:\Users\Antoine\Projet\SpaceSurvival_Optimise\SpaceSurvival_Optimise\SpaceSurvival_Optimise\obj\x86\Debug\SpaceSurvival_Optimise.exe
+C:\Users\Antoine\Projet\SpaceSurvival_Optimise\SpaceSurvival_Optimise\SpaceSurvival_Optimise\obj\x86\Debug\SpaceSurvival_Optimise.pdb
+C:\Users\Antoine\Projet\SpaceSurvival_Optimise\SpaceSurvival_Optimise\SpaceSurvival_Optimise\bin\x86\Debug\Content\police.xnb

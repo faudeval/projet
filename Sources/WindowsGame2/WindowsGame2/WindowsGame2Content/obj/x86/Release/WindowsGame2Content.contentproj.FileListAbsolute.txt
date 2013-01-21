@@ -1,2 +1,0 @@
-C:\Users\Antoine\documents\visual studio 2010\Projects\WindowsGame2\WindowsGame2\WindowsGame2Content\obj\x86\Release\WindowsGame2Content.contentprojResolveAssemblyReference.cache
-H:\Documents\faud\Projet\dépôt privé github\Programmes\WindowsGame2\WindowsGame2\WindowsGame2Content\obj\x86\Release\ResolveAssemblyReference.cache
