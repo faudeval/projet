@@ -9,3 +9,5 @@ c:\users\antoine\documents\visual studio 2010\Projects\WindowsGame2\WindowsGame2
 C:\Users\Antoine\documents\visual studio 2010\Projects\WindowsGame2\WindowsGame2\WindowsGame2\obj\x86\Debug\WindowsGame2.csprojResolveAssemblyReference.cache
 H:\Documents\faud\Projet\dépôt privé github\Programmes\WindowsGame2\WindowsGame2\WindowsGame2\obj\x86\Debug\WindowsGame2.exe
 H:\Documents\faud\Projet\dépôt privé github\Programmes\WindowsGame2\WindowsGame2\WindowsGame2\obj\x86\Debug\WindowsGame2.pdb
+H:\Documents\faud\Projet\dépôt privé github\Sources\WindowsGame2\WindowsGame2\WindowsGame2\obj\x86\Debug\WindowsGame2.exe
+H:\Documents\faud\Projet\dépôt privé github\Sources\WindowsGame2\WindowsGame2\WindowsGame2\obj\x86\Debug\WindowsGame2.pdb

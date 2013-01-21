@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T2D", "T2D\T2D\T2D.csproj", "{9143D5DE-CE7F-4058-9AC7-10965934DCFB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Content", "T2D\T2DContent\Content.contentproj", "{89203C85-A717-4702-9981-34929E92F662}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameStateManagement (Windows)", "..\..\FAUD\GameStateManagement\GameStateManagementSample\GameStateManagement\GameStateManagement (Windows).csproj", "{0A551D79-F37E-4529-9CA0-3FD2E9EA715E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9143D5DE-CE7F-4058-9AC7-10965934DCFB}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{9143D5DE-CE7F-4058-9AC7-10965934DCFB}.Debug|x86.ActiveCfg = Debug|x86
+		{9143D5DE-CE7F-4058-9AC7-10965934DCFB}.Debug|x86.Build.0 = Debug|x86
+		{9143D5DE-CE7F-4058-9AC7-10965934DCFB}.Release|Any CPU.ActiveCfg = Release|x86
+		{9143D5DE-CE7F-4058-9AC7-10965934DCFB}.Release|x86.ActiveCfg = Release|x86
+		{9143D5DE-CE7F-4058-9AC7-10965934DCFB}.Release|x86.Build.0 = Release|x86
+		{89203C85-A717-4702-9981-34929E92F662}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{89203C85-A717-4702-9981-34929E92F662}.Debug|x86.ActiveCfg = Debug|x86
+		{89203C85-A717-4702-9981-34929E92F662}.Release|Any CPU.ActiveCfg = Release|x86
+		{89203C85-A717-4702-9981-34929E92F662}.Release|x86.ActiveCfg = Release|x86
+		{0A551D79-F37E-4529-9CA0-3FD2E9EA715E}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{0A551D79-F37E-4529-9CA0-3FD2E9EA715E}.Debug|x86.ActiveCfg = Debug|x86
+		{0A551D79-F37E-4529-9CA0-3FD2E9EA715E}.Debug|x86.Build.0 = Debug|x86
+		{0A551D79-F37E-4529-9CA0-3FD2E9EA715E}.Release|Any CPU.ActiveCfg = Release|x86
+		{0A551D79-F37E-4529-9CA0-3FD2E9EA715E}.Release|x86.ActiveCfg = Release|x86
+		{0A551D79-F37E-4529-9CA0-3FD2E9EA715E}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

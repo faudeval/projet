@@ -14,3 +14,5 @@ c:\Users\Antoine\Documents\Visual Studio 2010\Projects\WindowsGame3\WindowsGame3
 C:\Users\Antoine\documents\visual studio 2010\Projects\WindowsGame3\WindowsGame3\WindowsGame3\obj\x86\Debug\WindowsGame3.csprojResolveAssemblyReference.cache
 H:\Documents\faud\Projet\dépôt privé github\Programmes\WindowsGame3\WindowsGame3\WindowsGame3\obj\x86\Debug\WindowsGame3.exe
 H:\Documents\faud\Projet\dépôt privé github\Programmes\WindowsGame3\WindowsGame3\WindowsGame3\obj\x86\Debug\WindowsGame3.pdb
+H:\Documents\faud\Projet\dépôt privé github\Sources\WindowsGame3\WindowsGame3\WindowsGame3\obj\x86\Debug\WindowsGame3.exe
+H:\Documents\faud\Projet\dépôt privé github\Sources\WindowsGame3\WindowsGame3\WindowsGame3\obj\x86\Debug\WindowsGame3.pdb
