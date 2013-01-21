@@ -1,0 +1,12 @@
+C:\Users\Antoine\Downloads\GSMSample_4_0_Mango\GameStateManagementSample\GameStateManagement\bin\x86\Debug\GameStateManagement.dll
+C:\Users\Antoine\Downloads\GSMSample_4_0_Mango\GameStateManagementSample\GameStateManagement\bin\x86\Debug\GameStateManagement.pdb
+C:\Users\Antoine\Downloads\GSMSample_4_0_Mango\GameStateManagementSample\GameStateManagement\obj\x86\Debug\GameStateManagement (Windows).csprojResolveAssemblyReference.cache
+C:\Users\Antoine\Downloads\GSMSample_4_0_Mango\GameStateManagementSample\GameStateManagement\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Antoine\Downloads\GSMSample_4_0_Mango\GameStateManagementSample\GameStateManagement\obj\x86\Debug\GameStateManagement.dll
+C:\Users\Antoine\Downloads\GSMSample_4_0_Mango\GameStateManagementSample\GameStateManagement\obj\x86\Debug\GameStateManagement.pdb
+C:\Users\Antoine\Projet\SpaceSurvival_Menu\SpaceSurvival_Menu\GameStateManagement\bin\x86\Debug\GameStateManagement.dll
+C:\Users\Antoine\Projet\SpaceSurvival_Menu\SpaceSurvival_Menu\GameStateManagement\bin\x86\Debug\GameStateManagement.pdb
+C:\Users\Antoine\Projet\SpaceSurvival_Menu\SpaceSurvival_Menu\GameStateManagement\obj\x86\Debug\GameStateManagement (Windows).csprojResolveAssemblyReference.cache
+C:\Users\Antoine\Projet\SpaceSurvival_Menu\SpaceSurvival_Menu\GameStateManagement\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Antoine\Projet\SpaceSurvival_Menu\SpaceSurvival_Menu\GameStateManagement\obj\x86\Debug\GameStateManagement.dll
+C:\Users\Antoine\Projet\SpaceSurvival_Menu\SpaceSurvival_Menu\GameStateManagement\obj\x86\Debug\GameStateManagement.pdb

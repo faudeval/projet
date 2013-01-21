@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpaceSurvival_Menu", "SpaceSurvival_Menu\SpaceSurvival_Menu\SpaceSurvival_Menu.csproj", "{A5AE052A-8140-44D7-BA43-1AC8020D79CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpaceSurvival_MenuContent", "SpaceSurvival_Menu\SpaceSurvival_MenuContent\SpaceSurvival_MenuContent.contentproj", "{3EAD4C25-FE98-4549-A3A1-9498A9B8C612}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameStateManagement (Windows)", "SpaceSurvival_Menu\GameStateManagement\GameStateManagement (Windows).csproj", "{0A551D79-F37E-4529-9CA0-3FD2E9EA715E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A5AE052A-8140-44D7-BA43-1AC8020D79CE}.Debug|x86.ActiveCfg = Debug|x86
+		{A5AE052A-8140-44D7-BA43-1AC8020D79CE}.Debug|x86.Build.0 = Debug|x86
+		{A5AE052A-8140-44D7-BA43-1AC8020D79CE}.Release|x86.ActiveCfg = Release|x86
+		{A5AE052A-8140-44D7-BA43-1AC8020D79CE}.Release|x86.Build.0 = Release|x86
+		{3EAD4C25-FE98-4549-A3A1-9498A9B8C612}.Debug|x86.ActiveCfg = Debug|x86
+		{3EAD4C25-FE98-4549-A3A1-9498A9B8C612}.Release|x86.ActiveCfg = Release|x86
+		{0A551D79-F37E-4529-9CA0-3FD2E9EA715E}.Debug|x86.ActiveCfg = Debug|x86
+		{0A551D79-F37E-4529-9CA0-3FD2E9EA715E}.Debug|x86.Build.0 = Debug|x86
+		{0A551D79-F37E-4529-9CA0-3FD2E9EA715E}.Release|x86.ActiveCfg = Release|x86
+		{0A551D79-F37E-4529-9CA0-3FD2E9EA715E}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

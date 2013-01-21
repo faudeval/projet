@@ -1,0 +1,17 @@
+C:\Users\Antoine\Projet\SpaceSurvival_Menu\SpaceSurvival_Menu\SpaceSurvival_Menu\bin\x86\Debug\SpaceSurvival_Menu.exe
+C:\Users\Antoine\Projet\SpaceSurvival_Menu\SpaceSurvival_Menu\SpaceSurvival_Menu\bin\x86\Debug\SpaceSurvival_Menu.pdb
+C:\Users\Antoine\Projet\SpaceSurvival_Menu\SpaceSurvival_Menu\SpaceSurvival_Menu\obj\x86\Debug\SpaceSurvival_Menu.csprojResolveAssemblyReference.cache
+C:\Users\Antoine\Projet\SpaceSurvival_Menu\SpaceSurvival_Menu\SpaceSurvival_Menu\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Antoine\Projet\SpaceSurvival_Menu\SpaceSurvival_Menu\SpaceSurvival_Menu\obj\x86\Debug\SpaceSurvival_Menu.exe
+C:\Users\Antoine\Projet\SpaceSurvival_Menu\SpaceSurvival_Menu\SpaceSurvival_Menu\obj\x86\Debug\SpaceSurvival_Menu.pdb
+C:\Users\Antoine\Projet\SpaceSurvival_Menu\SpaceSurvival_Menu\SpaceSurvival_Menu\bin\x86\Debug\Content\background.xnb
+C:\Users\Antoine\Projet\SpaceSurvival_Menu\SpaceSurvival_Menu\SpaceSurvival_Menu\bin\x86\Debug\Content\blank.xnb
+C:\Users\Antoine\Projet\SpaceSurvival_Menu\SpaceSurvival_Menu\SpaceSurvival_Menu\bin\x86\Debug\Content\gradient.xnb
+C:\Users\Antoine\Projet\SpaceSurvival_Menu\SpaceSurvival_Menu\SpaceSurvival_Menu\bin\x86\Debug\Content\gamefont.xnb
+C:\Users\Antoine\Projet\SpaceSurvival_Menu\SpaceSurvival_Menu\SpaceSurvival_Menu\bin\x86\Debug\Content\menufont.xnb
+C:\Users\Antoine\Projet\SpaceSurvival_Menu\SpaceSurvival_Menu\SpaceSurvival_Menu\bin\x86\Debug\GameStateManagement.dll
+C:\Users\Antoine\Projet\SpaceSurvival_Menu\SpaceSurvival_Menu\SpaceSurvival_Menu\bin\x86\Debug\GameStateManagement.pdb
+C:\Users\Antoine\Projet\SpaceSurvival_Menu\SpaceSurvival_Menu\SpaceSurvival_Menu\bin\x86\Debug\Content\background2.xnb
+C:\Users\Antoine\Projet\SpaceSurvival_Menu\SpaceSurvival_Menu\SpaceSurvival_Menu\bin\x86\Debug\Content\accept_button.xnb
+C:\Users\Antoine\Projet\SpaceSurvival_Menu\SpaceSurvival_Menu\SpaceSurvival_Menu\bin\x86\Debug\Content\refuse_button.xnb
+C:\Users\Antoine\Projet\SpaceSurvival_Menu\SpaceSurvival_Menu\SpaceSurvival_Menu\bin\x86\Debug\Content\police.xnb
