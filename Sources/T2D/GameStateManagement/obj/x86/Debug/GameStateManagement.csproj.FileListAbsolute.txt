@@ -1,0 +1,6 @@
+H:\Documents\XNA\TOWER DEFENSE\T2D\GameStateManagement\obj\x86\Debug\ResolveAssemblyReference.cache
+H:\Documents\XNA\TOWER DEFENSE\T2D\GameStateManagement\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+H:\Documents\XNA\TOWER DEFENSE\T2D\GameStateManagement\bin\x86\Debug\GameStateManagement.dll
+H:\Documents\XNA\TOWER DEFENSE\T2D\GameStateManagement\bin\x86\Debug\GameStateManagement.pdb
+H:\Documents\XNA\TOWER DEFENSE\T2D\GameStateManagement\obj\x86\Debug\GameStateManagement.dll
+H:\Documents\XNA\TOWER DEFENSE\T2D\GameStateManagement\obj\x86\Debug\GameStateManagement.pdb

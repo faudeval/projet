@@ -52,21 +52,3 @@ H:\Documents\XNA\TOWER DEFENSE\T2D\T2D\T2D\bin\x86\Debug\Content\Game\Towers\ARR
 H:\Documents\XNA\TOWER DEFENSE\T2D\T2D\T2D\bin\x86\Debug\Content\Game\Enemies\enemy.xnb
 H:\Documents\XNA\TOWER DEFENSE\T2D\T2D\T2D\bin\x86\Debug\Content\Game\Levels\grass.xnb
 H:\Documents\XNA\TOWER DEFENSE\T2D\T2D\T2D\bin\x86\Debug\Content\Game\Levels\path.xnb
-H:\Documents\faud\Projet\dépôt privé github\Sources\T2D\T2D\T2D\obj\x86\Debug\ResolveAssemblyReference.cache
-H:\Documents\faud\Projet\dépôt privé github\Sources\T2D\T2D\T2D\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
-H:\Documents\faud\Projet\dépôt privé github\Sources\T2D\T2D\T2D\obj\x86\Debug\T2D.exe
-H:\Documents\faud\Projet\dépôt privé github\Sources\T2D\T2D\T2D\obj\x86\Debug\T2D.pdb
-H:\Documents\faud\Projet\dépôt privé github\Sources\T2D\T2D\T2D\bin\x86\Debug\Content\GameStateManagement\menufont.xnb
-H:\Documents\faud\Projet\dépôt privé github\Sources\T2D\T2D\T2D\bin\x86\Debug\Content\Game\gamefont.xnb
-H:\Documents\faud\Projet\dépôt privé github\Sources\T2D\T2D\T2D\bin\x86\Debug\Content\fpsfont.xnb
-H:\Documents\faud\Projet\dépôt privé github\Sources\T2D\T2D\T2D\bin\x86\Debug\Content\GameStateManagement\background.xnb
-H:\Documents\faud\Projet\dépôt privé github\Sources\T2D\T2D\T2D\bin\x86\Debug\Content\GameStateManagement\blank.xnb
-H:\Documents\faud\Projet\dépôt privé github\Sources\T2D\T2D\T2D\bin\x86\Debug\Content\Game\Towers\arrow.xnb
-H:\Documents\faud\Projet\dépôt privé github\Sources\T2D\T2D\T2D\bin\x86\Debug\Content\Game\Enemies\enemy.xnb
-H:\Documents\faud\Projet\dépôt privé github\Sources\T2D\T2D\T2D\bin\x86\Debug\Content\Game\Levels\grass.xnb
-H:\Documents\faud\Projet\dépôt privé github\Sources\T2D\T2D\T2D\bin\x86\Debug\Content\Game\Levels\path.xnb
-H:\Documents\faud\Projet\dépôt privé github\Sources\T2D\T2D\T2D\bin\x86\Debug\Content\GameStateManagement\gradient.xnb
-H:\Documents\faud\Projet\dépôt privé github\Sources\T2D\T2D\T2D\bin\x86\Debug\T2D.exe
-H:\Documents\faud\Projet\dépôt privé github\Sources\T2D\T2D\T2D\bin\x86\Debug\T2D.pdb
-H:\Documents\faud\Projet\dépôt privé github\Sources\T2D\T2D\T2D\bin\x86\Debug\GameStateManagement.dll
-H:\Documents\faud\Projet\dépôt privé github\Sources\T2D\T2D\T2D\bin\x86\Debug\GameStateManagement.pdb

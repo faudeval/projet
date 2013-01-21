@@ -5,7 +5,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T2D", "T2D\T2D\T2D.csproj",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Content", "T2D\T2DContent\Content.contentproj", "{89203C85-A717-4702-9981-34929E92F662}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameStateManagement (Windows)", "..\..\..\..\..\XNA\FAUD\GameStateManagement\GameStateManagementSample\GameStateManagement\GameStateManagement (Windows).csproj", "{0A551D79-F37E-4529-9CA0-3FD2E9EA715E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameStateManagement", "GameStateManagement\GameStateManagement.csproj", "{FEEE5224-2E09-4ED9-8C9E-B20E63A392D8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,12 +25,12 @@ Global
 		{89203C85-A717-4702-9981-34929E92F662}.Debug|x86.ActiveCfg = Debug|x86
 		{89203C85-A717-4702-9981-34929E92F662}.Release|Any CPU.ActiveCfg = Release|x86
 		{89203C85-A717-4702-9981-34929E92F662}.Release|x86.ActiveCfg = Release|x86
-		{0A551D79-F37E-4529-9CA0-3FD2E9EA715E}.Debug|Any CPU.ActiveCfg = Debug|x86
-		{0A551D79-F37E-4529-9CA0-3FD2E9EA715E}.Debug|x86.ActiveCfg = Debug|x86
-		{0A551D79-F37E-4529-9CA0-3FD2E9EA715E}.Debug|x86.Build.0 = Debug|x86
-		{0A551D79-F37E-4529-9CA0-3FD2E9EA715E}.Release|Any CPU.ActiveCfg = Release|x86
-		{0A551D79-F37E-4529-9CA0-3FD2E9EA715E}.Release|x86.ActiveCfg = Release|x86
-		{0A551D79-F37E-4529-9CA0-3FD2E9EA715E}.Release|x86.Build.0 = Release|x86
+		{FEEE5224-2E09-4ED9-8C9E-B20E63A392D8}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{FEEE5224-2E09-4ED9-8C9E-B20E63A392D8}.Debug|x86.ActiveCfg = Debug|x86
+		{FEEE5224-2E09-4ED9-8C9E-B20E63A392D8}.Debug|x86.Build.0 = Debug|x86
+		{FEEE5224-2E09-4ED9-8C9E-B20E63A392D8}.Release|Any CPU.ActiveCfg = Release|x86
+		{FEEE5224-2E09-4ED9-8C9E-B20E63A392D8}.Release|x86.ActiveCfg = Release|x86
+		{FEEE5224-2E09-4ED9-8C9E-B20E63A392D8}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

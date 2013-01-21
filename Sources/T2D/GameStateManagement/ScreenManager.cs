@@ -14,7 +14,6 @@ using System.Collections.Generic;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Content;
 using Microsoft.Xna.Framework.Graphics;
-using Microsoft.Xna.Framework.Input.Touch;
 using System.IO;
 using System.IO.IsolatedStorage;
 using System.Xml.Linq;
@@ -104,9 +103,6 @@ namespace GameStateManagement
         public ScreenManager(Game game)
             : base(game)
         {
-            // we must set EnabledGestures before we can query for them, but
-            // we don't assume the game wants to read them.
-            TouchPanel.EnabledGestures = GestureType.None;
         }
 
 
@@ -130,8 +126,8 @@ namespace GameStateManagement
             ContentManager content = Game.Content;
 
             spriteBatch = new SpriteBatch(GraphicsDevice);
-            font = content.Load<SpriteFont>("menufont");
-            blankTexture = content.Load<Texture2D>("blank");
+            font = content.Load<SpriteFont>(@"GameStateManagement\menufont");
+            blankTexture = content.Load<Texture2D>(@"GameStateManagement\blank");
 
             // Tell each of the screens to load their content.
             foreach (GameScreen screen in screens)
@@ -263,9 +259,6 @@ namespace GameStateManagement
             }
 
             screens.Add(screen);
-
-            // update the TouchPanel to respond to gestures this screen is interested in
-            TouchPanel.EnabledGestures = screen.EnabledGestures;
         }
 
 
@@ -285,13 +278,6 @@ namespace GameStateManagement
 
             screens.Remove(screen);
             tempScreensList.Remove(screen);
-
-            // if there is a screen still in the manager, update TouchPanel
-            // to respond to gestures that screen is interested in.
-            if (screens.Count > 0)
-            {
-                TouchPanel.EnabledGestures = screens[screens.Count - 1].EnabledGestures;
-            }
         }
 
 

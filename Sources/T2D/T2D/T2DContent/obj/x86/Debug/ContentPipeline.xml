@@ -7,7 +7,7 @@
       <Importer>FontDescriptionImporter</Importer>
       <Processor>FontDescriptionProcessor</Processor>
       <Options>None</Options>
-      <Output>H:\Documents\faud\Projet\dépôt privé github\Sources\T2D\T2D\T2D\bin\x86\Debug\Content\GameStateManagement\menufont.xnb</Output>
+      <Output>H:\Documents\XNA\TOWER DEFENSE\T2D\T2D\T2D\bin\x86\Debug\Content\GameStateManagement\menufont.xnb</Output>
       <Time>2013-01-17T10:12:42+01:00</Time>
     </Item>
     <Item>
@@ -16,7 +16,7 @@
       <Importer>FontDescriptionImporter</Importer>
       <Processor>FontDescriptionProcessor</Processor>
       <Options>None</Options>
-      <Output>H:\Documents\faud\Projet\dépôt privé github\Sources\T2D\T2D\T2D\bin\x86\Debug\Content\Game\gamefont.xnb</Output>
+      <Output>H:\Documents\XNA\TOWER DEFENSE\T2D\T2D\T2D\bin\x86\Debug\Content\Game\gamefont.xnb</Output>
       <Time>2013-01-17T10:16:08+01:00</Time>
     </Item>
     <Item>
@@ -25,7 +25,7 @@
       <Importer>FontDescriptionImporter</Importer>
       <Processor>FontDescriptionProcessor</Processor>
       <Options>None</Options>
-      <Output>H:\Documents\faud\Projet\dépôt privé github\Sources\T2D\T2D\T2D\bin\x86\Debug\Content\fpsfont.xnb</Output>
+      <Output>H:\Documents\XNA\TOWER DEFENSE\T2D\T2D\T2D\bin\x86\Debug\Content\fpsfont.xnb</Output>
       <Time>2013-01-17T10:18:34+01:00</Time>
     </Item>
     <Item>
@@ -34,7 +34,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>H:\Documents\faud\Projet\dépôt privé github\Sources\T2D\T2D\T2D\bin\x86\Debug\Content\GameStateManagement\background.xnb</Output>
+      <Output>H:\Documents\XNA\TOWER DEFENSE\T2D\T2D\T2D\bin\x86\Debug\Content\GameStateManagement\background.xnb</Output>
       <Time>2013-01-17T10:15:06+01:00</Time>
     </Item>
     <Item>
@@ -43,7 +43,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>H:\Documents\faud\Projet\dépôt privé github\Sources\T2D\T2D\T2D\bin\x86\Debug\Content\GameStateManagement\blank.xnb</Output>
+      <Output>H:\Documents\XNA\TOWER DEFENSE\T2D\T2D\T2D\bin\x86\Debug\Content\GameStateManagement\blank.xnb</Output>
       <Time>2013-01-17T10:15:34+01:00</Time>
     </Item>
     <Item>
@@ -52,7 +52,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>H:\Documents\faud\Projet\dépôt privé github\Sources\T2D\T2D\T2D\bin\x86\Debug\Content\Game\Towers\arrow.xnb</Output>
+      <Output>H:\Documents\XNA\TOWER DEFENSE\T2D\T2D\T2D\bin\x86\Debug\Content\Game\Towers\arrow.xnb</Output>
       <Time>2013-01-17T10:25:44+01:00</Time>
     </Item>
     <Item>
@@ -61,7 +61,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>H:\Documents\faud\Projet\dépôt privé github\Sources\T2D\T2D\T2D\bin\x86\Debug\Content\Game\Enemies\enemy.xnb</Output>
+      <Output>H:\Documents\XNA\TOWER DEFENSE\T2D\T2D\T2D\bin\x86\Debug\Content\Game\Enemies\enemy.xnb</Output>
       <Time>2013-01-17T10:25:44+01:00</Time>
     </Item>
     <Item>
@@ -70,7 +70,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>H:\Documents\faud\Projet\dépôt privé github\Sources\T2D\T2D\T2D\bin\x86\Debug\Content\Game\Levels\grass.xnb</Output>
+      <Output>H:\Documents\XNA\TOWER DEFENSE\T2D\T2D\T2D\bin\x86\Debug\Content\Game\Levels\grass.xnb</Output>
       <Time>2013-01-17T10:25:44+01:00</Time>
     </Item>
     <Item>
@@ -79,7 +79,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>H:\Documents\faud\Projet\dépôt privé github\Sources\T2D\T2D\T2D\bin\x86\Debug\Content\Game\Levels\path.xnb</Output>
+      <Output>H:\Documents\XNA\TOWER DEFENSE\T2D\T2D\T2D\bin\x86\Debug\Content\Game\Levels\path.xnb</Output>
       <Time>2013-01-17T10:25:44+01:00</Time>
     </Item>
     <Item>
@@ -88,7 +88,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>H:\Documents\faud\Projet\dépôt privé github\Sources\T2D\T2D\T2D\bin\x86\Debug\Content\GameStateManagement\gradient.xnb</Output>
+      <Output>H:\Documents\XNA\TOWER DEFENSE\T2D\T2D\T2D\bin\x86\Debug\Content\GameStateManagement\gradient.xnb</Output>
       <Time>2013-01-17T10:39:12+01:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
@@ -97,10 +97,10 @@
       <TargetProfile>HiDef</TargetProfile>
       <BuildConfiguration>Debug</BuildConfiguration>
       <CompressContent>false</CompressContent>
-      <RootDirectory>H:\Documents\faud\Projet\dépôt privé github\Sources\T2D\T2D\T2DContent\</RootDirectory>
-      <LoggerRootDirectory>H:\Documents\faud\Projet\dépôt privé github\Sources\T2D\T2D\T2D\</LoggerRootDirectory>
-      <IntermediateDirectory>H:\Documents\faud\Projet\dépôt privé github\Sources\T2D\T2D\T2DContent\obj\x86\Debug\</IntermediateDirectory>
-      <OutputDirectory>H:\Documents\faud\Projet\dépôt privé github\Sources\T2D\T2D\T2D\bin\x86\Debug\Content\</OutputDirectory>
+      <RootDirectory>H:\Documents\XNA\TOWER DEFENSE\T2D\T2D\T2DContent\</RootDirectory>
+      <LoggerRootDirectory>H:\Documents\XNA\TOWER DEFENSE\T2D\T2D\T2D\</LoggerRootDirectory>
+      <IntermediateDirectory>H:\Documents\XNA\TOWER DEFENSE\T2D\T2D\T2DContent\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>H:\Documents\XNA\TOWER DEFENSE\T2D\T2D\T2D\bin\x86\Debug\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>
