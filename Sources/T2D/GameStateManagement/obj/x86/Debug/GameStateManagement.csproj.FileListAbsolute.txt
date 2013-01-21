@@ -16,3 +16,9 @@ H:\Documents\faud\Projet\T2D\GameStateManagement\obj\x86\Debug\ResolveAssemblyRe
 H:\Documents\faud\Projet\T2D\GameStateManagement\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
 H:\Documents\faud\Projet\T2D\GameStateManagement\obj\x86\Debug\GameStateManagement.dll
 H:\Documents\faud\Projet\T2D\GameStateManagement\obj\x86\Debug\GameStateManagement.pdb
+C:\Users\Antoine\Documents\Projet S3\git\Sources\T2D\GameStateManagement\bin\x86\Debug\GameStateManagement.dll
+C:\Users\Antoine\Documents\Projet S3\git\Sources\T2D\GameStateManagement\bin\x86\Debug\GameStateManagement.pdb
+C:\Users\Antoine\Documents\Projet S3\git\Sources\T2D\GameStateManagement\obj\x86\Debug\GameStateManagement.csprojResolveAssemblyReference.cache
+C:\Users\Antoine\Documents\Projet S3\git\Sources\T2D\GameStateManagement\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Antoine\Documents\Projet S3\git\Sources\T2D\GameStateManagement\obj\x86\Debug\GameStateManagement.dll
+C:\Users\Antoine\Documents\Projet S3\git\Sources\T2D\GameStateManagement\obj\x86\Debug\GameStateManagement.pdb

@@ -3,3 +3,4 @@ F:\T2D\T2D\T2DContent\obj\x86\Debug\ResolveAssemblyReference.cache
 H:\Documents\XNA\TOWER DEFENSE\T2D\T2D\T2DContent\obj\x86\Debug\ResolveAssemblyReference.cache
 H:\Documents\faud\Projet\dépôt privé github\Sources\T2D\T2D\T2DContent\obj\x86\Debug\ResolveAssemblyReference.cache
 H:\Documents\faud\Projet\T2D\T2D\T2DContent\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Antoine\Documents\Projet S3\git\Sources\T2D\T2D\T2DContent\obj\x86\Debug\Content.contentprojResolveAssemblyReference.cache

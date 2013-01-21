@@ -88,3 +88,21 @@ H:\Documents\faud\Projet\T2D\T2D\T2D\obj\x86\Debug\ResolveAssemblyReference.cach
 H:\Documents\faud\Projet\T2D\T2D\T2D\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
 H:\Documents\faud\Projet\T2D\T2D\T2D\obj\x86\Debug\T2D.exe
 H:\Documents\faud\Projet\T2D\T2D\T2D\obj\x86\Debug\T2D.pdb
+C:\Users\Antoine\Documents\Projet S3\git\Sources\T2D\T2D\T2D\bin\x86\Debug\Content\GameStateManagement\menufont.xnb
+C:\Users\Antoine\Documents\Projet S3\git\Sources\T2D\T2D\T2D\bin\x86\Debug\Content\Game\gamefont.xnb
+C:\Users\Antoine\Documents\Projet S3\git\Sources\T2D\T2D\T2D\bin\x86\Debug\Content\fpsfont.xnb
+C:\Users\Antoine\Documents\Projet S3\git\Sources\T2D\T2D\T2D\bin\x86\Debug\Content\GameStateManagement\background.xnb
+C:\Users\Antoine\Documents\Projet S3\git\Sources\T2D\T2D\T2D\bin\x86\Debug\Content\GameStateManagement\blank.xnb
+C:\Users\Antoine\Documents\Projet S3\git\Sources\T2D\T2D\T2D\bin\x86\Debug\Content\Game\Towers\arrow.xnb
+C:\Users\Antoine\Documents\Projet S3\git\Sources\T2D\T2D\T2D\bin\x86\Debug\Content\Game\Enemies\enemy.xnb
+C:\Users\Antoine\Documents\Projet S3\git\Sources\T2D\T2D\T2D\bin\x86\Debug\Content\Game\Levels\grass.xnb
+C:\Users\Antoine\Documents\Projet S3\git\Sources\T2D\T2D\T2D\bin\x86\Debug\Content\Game\Levels\path.xnb
+C:\Users\Antoine\Documents\Projet S3\git\Sources\T2D\T2D\T2D\bin\x86\Debug\Content\GameStateManagement\gradient.xnb
+C:\Users\Antoine\Documents\Projet S3\git\Sources\T2D\T2D\T2D\bin\x86\Debug\T2D.exe
+C:\Users\Antoine\Documents\Projet S3\git\Sources\T2D\T2D\T2D\bin\x86\Debug\T2D.pdb
+C:\Users\Antoine\Documents\Projet S3\git\Sources\T2D\T2D\T2D\bin\x86\Debug\GameStateManagement.dll
+C:\Users\Antoine\Documents\Projet S3\git\Sources\T2D\T2D\T2D\bin\x86\Debug\GameStateManagement.pdb
+C:\Users\Antoine\Documents\Projet S3\git\Sources\T2D\T2D\T2D\obj\x86\Debug\T2D.csprojResolveAssemblyReference.cache
+C:\Users\Antoine\Documents\Projet S3\git\Sources\T2D\T2D\T2D\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Antoine\Documents\Projet S3\git\Sources\T2D\T2D\T2D\obj\x86\Debug\T2D.exe
+C:\Users\Antoine\Documents\Projet S3\git\Sources\T2D\T2D\T2D\obj\x86\Debug\T2D.pdb

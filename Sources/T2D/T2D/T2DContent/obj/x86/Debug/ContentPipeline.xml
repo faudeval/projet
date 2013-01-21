@@ -7,8 +7,8 @@
       <Importer>FontDescriptionImporter</Importer>
       <Processor>FontDescriptionProcessor</Processor>
       <Options>None</Options>
-      <Output>H:\Documents\faud\Projet\T2D\T2D\T2D\bin\x86\Debug\Content\GameStateManagement\menufont.xnb</Output>
-      <Time>2013-01-17T10:12:42+01:00</Time>
+      <Output>C:\Users\Antoine\Documents\Projet S3\git\Sources\T2D\T2D\T2D\bin\x86\Debug\Content\GameStateManagement\menufont.xnb</Output>
+      <Time>2013-01-21T17:51:22.0144015+01:00</Time>
     </Item>
     <Item>
       <Source>Game\gamefont.spritefont</Source>
@@ -16,8 +16,8 @@
       <Importer>FontDescriptionImporter</Importer>
       <Processor>FontDescriptionProcessor</Processor>
       <Options>None</Options>
-      <Output>H:\Documents\faud\Projet\T2D\T2D\T2D\bin\x86\Debug\Content\Game\gamefont.xnb</Output>
-      <Time>2013-01-17T10:16:08+01:00</Time>
+      <Output>C:\Users\Antoine\Documents\Projet S3\git\Sources\T2D\T2D\T2D\bin\x86\Debug\Content\Game\gamefont.xnb</Output>
+      <Time>2013-01-21T17:51:22.0104012+01:00</Time>
     </Item>
     <Item>
       <Source>fpsfont.spritefont</Source>
@@ -25,8 +25,8 @@
       <Importer>FontDescriptionImporter</Importer>
       <Processor>FontDescriptionProcessor</Processor>
       <Options>None</Options>
-      <Output>H:\Documents\faud\Projet\T2D\T2D\T2D\bin\x86\Debug\Content\fpsfont.xnb</Output>
-      <Time>2013-01-17T10:18:34+01:00</Time>
+      <Output>C:\Users\Antoine\Documents\Projet S3\git\Sources\T2D\T2D\T2D\bin\x86\Debug\Content\fpsfont.xnb</Output>
+      <Time>2013-01-21T17:51:22.0214019+01:00</Time>
     </Item>
     <Item>
       <Source>GameStateManagement\background.png</Source>
@@ -34,8 +34,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>H:\Documents\faud\Projet\T2D\T2D\T2D\bin\x86\Debug\Content\GameStateManagement\background.xnb</Output>
-      <Time>2013-01-17T10:15:06+01:00</Time>
+      <Output>C:\Users\Antoine\Documents\Projet S3\git\Sources\T2D\T2D\T2D\bin\x86\Debug\Content\GameStateManagement\background.xnb</Output>
+      <Time>2013-01-21T17:51:22.0124014+01:00</Time>
     </Item>
     <Item>
       <Source>GameStateManagement\blank.png</Source>
@@ -43,8 +43,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>H:\Documents\faud\Projet\T2D\T2D\T2D\bin\x86\Debug\Content\GameStateManagement\blank.xnb</Output>
-      <Time>2013-01-17T10:15:34+01:00</Time>
+      <Output>C:\Users\Antoine\Documents\Projet S3\git\Sources\T2D\T2D\T2D\bin\x86\Debug\Content\GameStateManagement\blank.xnb</Output>
+      <Time>2013-01-21T17:51:22.0124014+01:00</Time>
     </Item>
     <Item>
       <Source>Game\Towers\arrow.png</Source>
@@ -52,8 +52,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>H:\Documents\faud\Projet\T2D\T2D\T2D\bin\x86\Debug\Content\Game\Towers\arrow.xnb</Output>
-      <Time>2013-01-17T10:25:44+01:00</Time>
+      <Output>C:\Users\Antoine\Documents\Projet S3\git\Sources\T2D\T2D\T2D\bin\x86\Debug\Content\Game\Towers\arrow.xnb</Output>
+      <Time>2013-01-21T17:51:22.0094012+01:00</Time>
     </Item>
     <Item>
       <Source>Game\Enemies\enemy.png</Source>
@@ -61,8 +61,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>H:\Documents\faud\Projet\T2D\T2D\T2D\bin\x86\Debug\Content\Game\Enemies\enemy.xnb</Output>
-      <Time>2013-01-17T10:25:44+01:00</Time>
+      <Output>C:\Users\Antoine\Documents\Projet S3\git\Sources\T2D\T2D\T2D\bin\x86\Debug\Content\Game\Enemies\enemy.xnb</Output>
+      <Time>2013-01-21T17:51:22.005401+01:00</Time>
     </Item>
     <Item>
       <Source>Game\Levels\grass.png</Source>
@@ -70,8 +70,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>H:\Documents\faud\Projet\T2D\T2D\T2D\bin\x86\Debug\Content\Game\Levels\grass.xnb</Output>
-      <Time>2013-01-17T10:25:44+01:00</Time>
+      <Output>C:\Users\Antoine\Documents\Projet S3\git\Sources\T2D\T2D\T2D\bin\x86\Debug\Content\Game\Levels\grass.xnb</Output>
+      <Time>2013-01-21T17:51:22.0074011+01:00</Time>
     </Item>
     <Item>
       <Source>Game\Levels\path.png</Source>
@@ -79,8 +79,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>H:\Documents\faud\Projet\T2D\T2D\T2D\bin\x86\Debug\Content\Game\Levels\path.xnb</Output>
-      <Time>2013-01-17T10:25:44+01:00</Time>
+      <Output>C:\Users\Antoine\Documents\Projet S3\git\Sources\T2D\T2D\T2D\bin\x86\Debug\Content\Game\Levels\path.xnb</Output>
+      <Time>2013-01-21T17:51:22.0074011+01:00</Time>
     </Item>
     <Item>
       <Source>GameStateManagement\gradient.png</Source>
@@ -88,8 +88,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>H:\Documents\faud\Projet\T2D\T2D\T2D\bin\x86\Debug\Content\GameStateManagement\gradient.xnb</Output>
-      <Time>2013-01-17T10:39:12+01:00</Time>
+      <Output>C:\Users\Antoine\Documents\Projet S3\git\Sources\T2D\T2D\T2D\bin\x86\Debug\Content\GameStateManagement\gradient.xnb</Output>
+      <Time>2013-01-21T17:51:22.0134014+01:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
@@ -97,39 +97,39 @@
       <TargetProfile>HiDef</TargetProfile>
       <BuildConfiguration>Debug</BuildConfiguration>
       <CompressContent>false</CompressContent>
-      <RootDirectory>H:\Documents\faud\Projet\T2D\T2D\T2DContent\</RootDirectory>
-      <LoggerRootDirectory>H:\Documents\faud\Projet\T2D\T2D\T2D\</LoggerRootDirectory>
-      <IntermediateDirectory>H:\Documents\faud\Projet\T2D\T2D\T2DContent\obj\x86\Debug\</IntermediateDirectory>
-      <OutputDirectory>H:\Documents\faud\Projet\T2D\T2D\T2D\bin\x86\Debug\Content\</OutputDirectory>
+      <RootDirectory>C:\Users\Antoine\Documents\Projet S3\git\Sources\T2D\T2D\T2DContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Antoine\Documents\Projet S3\git\Sources\T2D\T2D\T2D\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Antoine\Documents\Projet S3\git\Sources\T2D\T2D\T2DContent\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Antoine\Documents\Projet S3\git\Sources\T2D\T2D\T2D\bin\x86\Debug\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>
-        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
         <Value>2010-08-23T12:41:18+02:00</Value>
       </Assembly>
       <Assembly>
-        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
         <Value>2010-08-23T12:41:18+02:00</Value>
       </Assembly>
       <Assembly>
-        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
         <Value>2010-08-23T12:41:18+02:00</Value>
       </Assembly>
       <Assembly>
-        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
         <Value>2010-08-23T12:41:18+02:00</Value>
       </Assembly>
       <Assembly>
-        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
         <Value>2010-08-23T12:41:18+02:00</Value>
       </Assembly>
       <Assembly>
-        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
         <Value>2010-08-23T12:41:18+02:00</Value>
       </Assembly>
       <Assembly>
         <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
-        <Value>2012-10-13T21:09:29.8059823+02:00</Value>
+        <Value>2012-10-16T19:55:21.2809433+02:00</Value>
       </Assembly>
     </Assemblies>
   </Asset>
