@@ -1,0 +1,9 @@
+C:\Users\toshiba\Documents\Visual Studio 2010\Projects\DamesGamesV3\DamesGamesV3\DamesGamesV3\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\toshiba\Documents\Visual Studio 2010\Projects\DamesGamesV3\DamesGamesV3\DamesGamesV3\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\toshiba\Documents\Visual Studio 2010\Projects\DamesGamesV3\DamesGamesV3\DamesGamesV3\bin\x86\Debug\Content\JetonNoir.xnb
+C:\Users\toshiba\Documents\Visual Studio 2010\Projects\DamesGamesV3\DamesGamesV3\DamesGamesV3\bin\x86\Debug\Content\JetonBlanc.xnb
+C:\Users\toshiba\Documents\Visual Studio 2010\Projects\DamesGamesV3\DamesGamesV3\DamesGamesV3\bin\x86\Debug\DamesGamesV3.exe
+C:\Users\toshiba\Documents\Visual Studio 2010\Projects\DamesGamesV3\DamesGamesV3\DamesGamesV3\bin\x86\Debug\DamesGamesV3.pdb
+C:\Users\toshiba\Documents\Visual Studio 2010\Projects\DamesGamesV3\DamesGamesV3\DamesGamesV3\obj\x86\Debug\DamesGamesV3.exe
+C:\Users\toshiba\Documents\Visual Studio 2010\Projects\DamesGamesV3\DamesGamesV3\DamesGamesV3\obj\x86\Debug\DamesGamesV3.pdb
+C:\Users\toshiba\Documents\Visual Studio 2010\Projects\DamesGamesV3\DamesGamesV3\DamesGamesV3\bin\x86\Debug\Content\MyFont.xnb

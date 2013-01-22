@@ -1,0 +1,3 @@
+Content\JetonNoir.xnb
+Content\JetonBlanc.xnb
+Content\MyFont.xnb
