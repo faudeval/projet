@@ -7,3 +7,12 @@ C:\Users\toshiba\Documents\Visual Studio 2010\Projects\DamesGamesV3\DamesGamesV3
 C:\Users\toshiba\Documents\Visual Studio 2010\Projects\DamesGamesV3\DamesGamesV3\DamesGamesV3\obj\x86\Debug\DamesGamesV3.exe
 C:\Users\toshiba\Documents\Visual Studio 2010\Projects\DamesGamesV3\DamesGamesV3\DamesGamesV3\obj\x86\Debug\DamesGamesV3.pdb
 C:\Users\toshiba\Documents\Visual Studio 2010\Projects\DamesGamesV3\DamesGamesV3\DamesGamesV3\bin\x86\Debug\Content\MyFont.xnb
+C:\Users\Antoine\Documents\Projet S3\git\Sources\DamesGamesV3\DamesGamesV3\DamesGamesV3\bin\x86\Debug\Content\JetonNoir.xnb
+C:\Users\Antoine\Documents\Projet S3\git\Sources\DamesGamesV3\DamesGamesV3\DamesGamesV3\bin\x86\Debug\Content\JetonBlanc.xnb
+C:\Users\Antoine\Documents\Projet S3\git\Sources\DamesGamesV3\DamesGamesV3\DamesGamesV3\bin\x86\Debug\Content\MyFont.xnb
+C:\Users\Antoine\Documents\Projet S3\git\Sources\DamesGamesV3\DamesGamesV3\DamesGamesV3\bin\x86\Debug\DamesGamesV3.exe
+C:\Users\Antoine\Documents\Projet S3\git\Sources\DamesGamesV3\DamesGamesV3\DamesGamesV3\bin\x86\Debug\DamesGamesV3.pdb
+C:\Users\Antoine\Documents\Projet S3\git\Sources\DamesGamesV3\DamesGamesV3\DamesGamesV3\obj\x86\Debug\DamesGamesV3.csprojResolveAssemblyReference.cache
+C:\Users\Antoine\Documents\Projet S3\git\Sources\DamesGamesV3\DamesGamesV3\DamesGamesV3\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Antoine\Documents\Projet S3\git\Sources\DamesGamesV3\DamesGamesV3\DamesGamesV3\obj\x86\Debug\DamesGamesV3.exe
+C:\Users\Antoine\Documents\Projet S3\git\Sources\DamesGamesV3\DamesGamesV3\DamesGamesV3\obj\x86\Debug\DamesGamesV3.pdb

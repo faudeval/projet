@@ -11,8 +11,10 @@ using Microsoft.Xna.Framework.Media;
 
 namespace DamesGamesV3
 {
-    public class Jeton : Game1
+    public class Jeton
     {
+        private Game1 game;
+
         // Couleur du jeton
         public string couleur
         {
@@ -36,33 +38,33 @@ namespace DamesGamesV3
         public Vector2 position = new Vector2(0, 0);
 
         // Constructeur d'un jeton
-        public Jeton(String coul, int posX, int posY, int n)
+        public Jeton(String coul, int posX, int posY, int n, Game1 game)
         {
             couleur = coul;
             position.X = posX;
             position.Y = posY;
             rang = 1;
             num = n;
+            this.game = game;
         }
         
         public int IsJetonPresent(int X, int Y)
         {
             int numero = -1;
-            test += "1";
 
             for (int i = 0; i < 10; i++)
             {
                 for (int j = 0; j < 10; j++)
                 {
-                    if (Grille[i, j] != null)
+                    if (game.Grille[i, j] != null)
                     {
-                        test += "a";
+                        game.test += "a";
 
-                        if (X >= Grille[i, j].position.X
-                            && Y >= Grille[i, j].position.Y
-                            && X <= (Grille[i, j].position.X + JBlancWidth)
-                            && Y <= (Grille[i, j].position.Y + JBlancHeight))
-                                numero = Grille[i, j].num;
+                        if (X >= game.Grille[i, j].position.X
+                            && Y >= game.Grille[i, j].position.Y
+                            && X <= (game.Grille[i, j].position.X + game.JBlancWidth)
+                            && Y <= (game.Grille[i, j].position.Y + game.JBlancHeight))
+                            numero = game.Grille[i, j].num;
                     }
                 }
             }
@@ -79,10 +81,10 @@ namespace DamesGamesV3
                 for (int j = 0; j < 10; j++)
                 {
 
-                    if (Grille[i, j] != null)
+                    if (game.Grille[i, j] != null)
                     {
-                        if (Grille[i, j].num == n)
-                            c = Grille[i,j].couleur;
+                        if (game.Grille[i, j].num == n)
+                            c = game.Grille[i, j].couleur;
                     }
 
                 }

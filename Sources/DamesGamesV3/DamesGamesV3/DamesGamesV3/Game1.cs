@@ -18,6 +18,7 @@ namespace DamesGamesV3
     {
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
+        public static Game game;
 
          // Création des variables déstinées à contenir les images des jetons
         public Texture2D JBlanc;
@@ -66,6 +67,7 @@ namespace DamesGamesV3
         {
             graphics = new GraphicsDeviceManager(this);
             Content.RootDirectory = "Content";
+            game = this;
         }
 
         /// <summary>
@@ -133,22 +135,22 @@ namespace DamesGamesV3
 
             for (int i = 0; i < 5; i++) 
             {
-                Grille[0, i * 2 + 1] = new Jeton("noir", JBlancWidth * (2 * i + 1), 0, Num);
+                Grille[0, i * 2 + 1] = new Jeton("noir", JBlancWidth * (2 * i + 1), 0, Num, this);
                 Num++;
-                Grille[1, i * 2] = new Jeton("noir", JBlancWidth * (i * 2), JBlancHeight, Num);
+                Grille[1, i * 2] = new Jeton("noir", JBlancWidth * (i * 2), JBlancHeight, Num, this);
                 Num++;
-                Grille[2, i * 2 + 1] = new Jeton("noir", JBlancWidth * (2 * i + 1), 2 * JBlancHeight, Num);
+                Grille[2, i * 2 + 1] = new Jeton("noir", JBlancWidth * (2 * i + 1), 2 * JBlancHeight, Num, this);
                 Num++;
-                Grille[3, i * 2] = new Jeton("noir", JBlancWidth * (i * 2), 3 * JBlancHeight, Num);
+                Grille[3, i * 2] = new Jeton("noir", JBlancWidth * (i * 2), 3 * JBlancHeight, Num, this);
                 Num++;
 
-                Grille[6, i * 2 + 1] = new Jeton("blanc", (2 * i * JBlancWidth), (WindowHeight - JBlancHeight), Num);
+                Grille[6, i * 2 + 1] = new Jeton("blanc", (2 * i * JBlancWidth), (WindowHeight - JBlancHeight), Num, this);
                 Num++;
-                Grille[7, i * 2] = new Jeton("blanc", ((2 * i + 1) * JBlancWidth), (WindowHeight - 2 * JBlancHeight), Num);
+                Grille[7, i * 2] = new Jeton("blanc", ((2 * i + 1) * JBlancWidth), (WindowHeight - 2 * JBlancHeight), Num, this);
                 Num++;
-                Grille[8, i * 2 + 1] = new Jeton("blanc", (2 * i * JBlancWidth), (WindowHeight - 3 * JBlancHeight), Num);
+                Grille[8, i * 2 + 1] = new Jeton("blanc", (2 * i * JBlancWidth), (WindowHeight - 3 * JBlancHeight), Num, this);
                 Num++;
-                Grille[9, i * 2] = new Jeton("blanc", ((2 * i + 1) * JBlancWidth), (WindowHeight - 4 * JBlancHeight), Num);
+                Grille[9, i * 2] = new Jeton("blanc", ((2 * i + 1) * JBlancWidth), (WindowHeight - 4 * JBlancHeight), Num, this);
                 Num++;
 
 
@@ -175,7 +177,7 @@ namespace DamesGamesV3
             if (Keyboard.GetState().IsKeyDown(Keys.Escape))
                 this.Exit();
 
-            Jeton j = new Jeton("blanc", 150, 150, 9000);
+            Jeton j = new Jeton("blanc", 150, 150, 9000, this);
             mouseState = Mouse.GetState();  
 
             // TODO: Add your update logic here

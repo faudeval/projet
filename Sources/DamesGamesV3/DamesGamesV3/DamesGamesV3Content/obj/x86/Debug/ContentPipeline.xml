@@ -7,8 +7,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\toshiba\Documents\Visual Studio 2010\Projects\DamesGamesV3\DamesGamesV3\DamesGamesV3\bin\x86\Debug\Content\JetonNoir.xnb</Output>
-      <Time>2013-01-10T10:33:47.5231907+01:00</Time>
+      <Output>C:\Users\Antoine\Documents\Projet S3\git\Sources\DamesGamesV3\DamesGamesV3\DamesGamesV3\bin\x86\Debug\Content\JetonNoir.xnb</Output>
+      <Time>2013-01-22T14:03:04.6169106+01:00</Time>
     </Item>
     <Item>
       <Source>JetonBlanc.jpg</Source>
@@ -16,8 +16,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\toshiba\Documents\Visual Studio 2010\Projects\DamesGamesV3\DamesGamesV3\DamesGamesV3\bin\x86\Debug\Content\JetonBlanc.xnb</Output>
-      <Time>2013-01-10T10:33:55.9934209+01:00</Time>
+      <Output>C:\Users\Antoine\Documents\Projet S3\git\Sources\DamesGamesV3\DamesGamesV3\DamesGamesV3\bin\x86\Debug\Content\JetonBlanc.xnb</Output>
+      <Time>2013-01-22T14:03:04.6159105+01:00</Time>
     </Item>
     <Item>
       <Source>MyFont.spritefont</Source>
@@ -25,8 +25,8 @@
       <Importer>FontDescriptionImporter</Importer>
       <Processor>FontDescriptionProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\toshiba\Documents\Visual Studio 2010\Projects\DamesGamesV3\DamesGamesV3\DamesGamesV3\bin\x86\Debug\Content\MyFont.xnb</Output>
-      <Time>2013-01-21T10:45:15.3206768+01:00</Time>
+      <Output>C:\Users\Antoine\Documents\Projet S3\git\Sources\DamesGamesV3\DamesGamesV3\DamesGamesV3\bin\x86\Debug\Content\MyFont.xnb</Output>
+      <Time>2013-01-22T14:03:04.6169106+01:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
@@ -34,39 +34,39 @@
       <TargetProfile>HiDef</TargetProfile>
       <BuildConfiguration>Debug</BuildConfiguration>
       <CompressContent>false</CompressContent>
-      <RootDirectory>C:\Users\toshiba\Documents\Visual Studio 2010\Projects\DamesGamesV3\DamesGamesV3\DamesGamesV3Content\</RootDirectory>
-      <LoggerRootDirectory>C:\Users\toshiba\Documents\Visual Studio 2010\Projects\DamesGamesV3\DamesGamesV3\DamesGamesV3\</LoggerRootDirectory>
-      <IntermediateDirectory>C:\Users\toshiba\Documents\Visual Studio 2010\Projects\DamesGamesV3\DamesGamesV3\DamesGamesV3Content\obj\x86\Debug\</IntermediateDirectory>
-      <OutputDirectory>C:\Users\toshiba\Documents\Visual Studio 2010\Projects\DamesGamesV3\DamesGamesV3\DamesGamesV3\bin\x86\Debug\Content\</OutputDirectory>
+      <RootDirectory>C:\Users\Antoine\Documents\Projet S3\git\Sources\DamesGamesV3\DamesGamesV3\DamesGamesV3Content\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Antoine\Documents\Projet S3\git\Sources\DamesGamesV3\DamesGamesV3\DamesGamesV3\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Antoine\Documents\Projet S3\git\Sources\DamesGamesV3\DamesGamesV3\DamesGamesV3Content\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Antoine\Documents\Projet S3\git\Sources\DamesGamesV3\DamesGamesV3\DamesGamesV3\bin\x86\Debug\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>
-        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
-        <Value>2010-08-23T13:41:18+02:00</Value>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2010-08-23T12:41:18+02:00</Value>
       </Assembly>
       <Assembly>
-        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
-        <Value>2010-08-23T13:41:18+02:00</Value>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2010-08-23T12:41:18+02:00</Value>
       </Assembly>
       <Assembly>
-        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
-        <Value>2010-08-23T13:41:18+02:00</Value>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2010-08-23T12:41:18+02:00</Value>
       </Assembly>
       <Assembly>
-        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
-        <Value>2010-08-23T13:41:18+02:00</Value>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2010-08-23T12:41:18+02:00</Value>
       </Assembly>
       <Assembly>
-        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
-        <Value>2010-08-23T13:41:18+02:00</Value>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2010-08-23T12:41:18+02:00</Value>
       </Assembly>
       <Assembly>
-        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
-        <Value>2010-08-23T13:41:18+02:00</Value>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2010-08-23T12:41:18+02:00</Value>
       </Assembly>
       <Assembly>
         <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
-        <Value>2012-10-31T18:48:01.1059444+01:00</Value>
+        <Value>2012-10-16T19:55:21.2809433+02:00</Value>
       </Assembly>
     </Assemblies>
   </Asset>
