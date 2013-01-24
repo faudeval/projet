@@ -48,6 +48,9 @@ namespace DamesGamesV3
             this.game = game;
         }
         
+        // Methode permettant de savoir si un jeton est présent.
+        // Renvoie le numéro du jeton selectionné,
+        // -1 si il n'y a pas de jeton
         public int IsJetonPresent(int X, int Y)
         {
             int numero = -1;
@@ -58,8 +61,6 @@ namespace DamesGamesV3
                 {
                     if (game.Grille[i, j] != null)
                     {
-                        game.test += "a";
-
                         if (X >= game.Grille[i, j].position.X
                             && Y >= game.Grille[i, j].position.Y
                             && X <= (game.Grille[i, j].position.X + game.JBlancWidth)
@@ -68,10 +69,11 @@ namespace DamesGamesV3
                     }
                 }
             }
-
             return numero;
         }
 
+        // Renvoie la couleur du jeton séletionné,
+        // Prend le numéro du jeton en parametre
         public string CoulJeton(int n)
         {
             string c = null;
@@ -91,6 +93,34 @@ namespace DamesGamesV3
             }
 
             return c;
+        }
+
+        // Renvoie la postion en X du côté supérieure gauche d'une case
+        // En fonction de la case cliquée
+        public int RenvoiePosX(int PosXActu) 
+        {
+            int NewPosX = 0;
+            for (int i = 0; i < 9; i++)
+            {
+                if (PosXActu >= i * game.JBlancWidth && PosXActu <= (i+1) * game.JBlancWidth)
+                    NewPosX = i * game.JBlancWidth;
+            }
+            return NewPosX;
+        }
+
+        // Renvoie la postion en Y du côté supérieure gauche d'une case
+        // En fonction de la case cliquée
+        public int RenvoiePosY(int PosYActu)
+        {
+            int NewPosY = 0;
+
+            for (int i = 0; i < 9; i++)
+            {
+                if (PosYActu >= i * game.JBlancHeight && PosYActu <= (i+1) * game.JBlancHeight)
+                    NewPosY = i * game.JBlancHeight;
+            }
+            
+            return NewPosY;
         }
     }
 }
