@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>balle.png</Source>
+      <Name>balle</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jason\Documents\Visual Studio 2010\Projects\Pong++\Pong++\Pong++\bin\x86\Release\Content\balle.xnb</Output>
+      <Time>2013-01-23T14:27:43.7806+01:00</Time>
+    </Item>
+    <Item>
+      <Source>raquette.png</Source>
+      <Name>raquette</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jason\Documents\Visual Studio 2010\Projects\Pong++\Pong++\Pong++\bin\x86\Release\Content\raquette.xnb</Output>
+      <Time>2013-01-05T15:11:55.8984+01:00</Time>
+    </Item>
+    <Item>
+      <Source>brique.png</Source>
+      <Name>brique</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jason\Documents\Visual Studio 2010\Projects\Pong++\Pong++\Pong++\bin\x86\Release\Content\brique.xnb</Output>
+      <Time>2013-01-18T15:06:45.445+01:00</Time>
+    </Item>
+    <Item>
+      <Source>briquebreaked.png</Source>
+      <Name>briquebreaked</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jason\Documents\Visual Studio 2010\Projects\Pong++\Pong++\Pong++\bin\x86\Release\Content\briquebreaked.xnb</Output>
+      <Time>2013-01-18T15:27:58.1734+01:00</Time>
+    </Item>
+    <Item>
+      <Source>raquette2-2.png</Source>
+      <Name>raquette2-2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jason\Documents\Visual Studio 2010\Projects\Pong++\Pong++\Pong++\bin\x86\Release\Content\raquette2-2.xnb</Output>
+      <Time>2013-01-22T16:51:37.6044+01:00</Time>
+    </Item>
+    <Item>
+      <Source>raquette2.png</Source>
+      <Name>raquette2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jason\Documents\Visual Studio 2010\Projects\Pong++\Pong++\Pong++\bin\x86\Release\Content\raquette2.xnb</Output>
+      <Time>2013-01-22T16:51:39.2268+01:00</Time>
+    </Item>
+    <Item>
+      <Source>raquette3-2.png</Source>
+      <Name>raquette3-2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jason\Documents\Visual Studio 2010\Projects\Pong++\Pong++\Pong++\bin\x86\Release\Content\raquette3-2.xnb</Output>
+      <Time>2013-01-24T10:47:42.305+01:00</Time>
+    </Item>
+    <Item>
+      <Source>raquette3.png</Source>
+      <Name>raquette3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jason\Documents\Visual Studio 2010\Projects\Pong++\Pong++\Pong++\bin\x86\Release\Content\raquette3.xnb</Output>
+      <Time>2013-01-24T10:47:43.553+01:00</Time>
+    </Item>
+    <Item>
+      <Source>wall.png</Source>
+      <Name>wall</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jason\Documents\Visual Studio 2010\Projects\Pong++\Pong++\Pong++\bin\x86\Release\Content\wall.xnb</Output>
+      <Time>2013-01-23T14:12:20.4854+01:00</Time>
+    </Item>
+    <Item>
+      <Source>brique2.png</Source>
+      <Name>brique2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jason\Documents\Visual Studio 2010\Projects\Pong++\Pong++\Pong++\bin\x86\Release\Content\brique2.xnb</Output>
+      <Time>2013-01-23T14:23:50.76+01:00</Time>
+    </Item>
+    <Item>
+      <Source>briquebreaked2.png</Source>
+      <Name>briquebreaked2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jason\Documents\Visual Studio 2010\Projects\Pong++\Pong++\Pong++\bin\x86\Release\Content\briquebreaked2.xnb</Output>
+      <Time>2013-01-23T14:23:50.7288+01:00</Time>
+    </Item>
+    <Item>
+      <Source>SpriteFont1.spritefont</Source>
+      <Name>SpriteFont1</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jason\Documents\Visual Studio 2010\Projects\Pong++\Pong++\Pong++\bin\x86\Release\Content\SpriteFont1.xnb</Output>
+      <Time>2013-01-05T15:11:55.914+01:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>HiDef</TargetProfile>
+      <BuildConfiguration>Release</BuildConfiguration>
+      <CompressContent>true</CompressContent>
+      <RootDirectory>C:\Users\Jason\Documents\Visual Studio 2010\Projects\Pong++\Pong++\Pong++Content\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Jason\Documents\Visual Studio 2010\Projects\Pong++\Pong++\Pong++\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Jason\Documents\Visual Studio 2010\Projects\Pong++\Pong++\Pong++Content\obj\x86\Release\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Jason\Documents\Visual Studio 2010\Projects\Pong++\Pong++\Pong++\bin\x86\Release\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2010-08-23T12:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2010-08-23T12:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2010-08-23T12:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2010-08-23T12:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2010-08-23T12:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2010-08-23T12:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2012-10-21T16:41:05.8846+02:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>
