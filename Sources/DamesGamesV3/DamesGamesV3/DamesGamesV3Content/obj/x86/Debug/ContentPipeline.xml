@@ -28,6 +28,42 @@
       <Output>C:\Users\toshiba\Documents\Visual Studio 2010\Projects\DamesGamesV3\DamesGamesV3\DamesGamesV3\bin\x86\Debug\Content\JetonBlanc.xnb</Output>
       <Time>2013-01-24T11:28:00+01:00</Time>
     </Item>
+    <Item>
+      <Source>CaseMarron.png</Source>
+      <Name>CaseMarron</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\toshiba\Documents\Visual Studio 2010\Projects\DamesGamesV3\DamesGamesV3\DamesGamesV3\bin\x86\Debug\Content\CaseMarron.xnb</Output>
+      <Time>2013-01-24T14:24:19.6508708+01:00</Time>
+    </Item>
+    <Item>
+      <Source>CaseBlanche.png</Source>
+      <Name>CaseBlanche</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\toshiba\Documents\Visual Studio 2010\Projects\DamesGamesV3\DamesGamesV3\DamesGamesV3\bin\x86\Debug\Content\CaseBlanche.xnb</Output>
+      <Time>2013-01-24T14:24:36.3368252+01:00</Time>
+    </Item>
+    <Item>
+      <Source>CaseGrise.png</Source>
+      <Name>CaseGrise</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\toshiba\Documents\Visual Studio 2010\Projects\DamesGamesV3\DamesGamesV3\DamesGamesV3\bin\x86\Debug\Content\CaseGrise.xnb</Output>
+      <Time>2013-01-24T14:30:00.4713646+01:00</Time>
+    </Item>
+    <Item>
+      <Source>CaseRougeBois.png</Source>
+      <Name>CaseRougeBois</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\toshiba\Documents\Visual Studio 2010\Projects\DamesGamesV3\DamesGamesV3\DamesGamesV3\bin\x86\Debug\Content\CaseRougeBois.xnb</Output>
+      <Time>2013-01-24T14:36:05.2122266+01:00</Time>
+    </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
       <TargetPlatform>Windows</TargetPlatform>

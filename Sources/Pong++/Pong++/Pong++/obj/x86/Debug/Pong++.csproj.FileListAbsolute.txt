@@ -11,3 +11,16 @@ C:\Users\Jason\Documents\Visual Studio 2010\Projects\Pong++\Pong++\Pong++\bin\x8
 C:\Users\Jason\Documents\Visual Studio 2010\Projects\Pong++\Pong++\Pong++\bin\x86\Debug\Content\bat2.xnb
 C:\Users\Jason\Documents\Visual Studio 2010\Projects\Pong++\Pong++\Pong++\bin\x86\Debug\Content\brick.xnb
 C:\Users\Jason\Documents\Visual Studio 2010\Projects\Pong++\Pong++\Pong++\bin\x86\Debug\Content\brokenBrick.xnb
+C:\Users\toshiba\Desktop\IUT S3\Projet\projet\Sources\Pong++\Pong++\Pong++\bin\x86\Debug\Content\SpriteFont1.xnb
+C:\Users\toshiba\Desktop\IUT S3\Projet\projet\Sources\Pong++\Pong++\Pong++\bin\x86\Debug\Content\ball.xnb
+C:\Users\toshiba\Desktop\IUT S3\Projet\projet\Sources\Pong++\Pong++\Pong++\bin\x86\Debug\Content\bat.xnb
+C:\Users\toshiba\Desktop\IUT S3\Projet\projet\Sources\Pong++\Pong++\Pong++\bin\x86\Debug\Content\bat2.xnb
+C:\Users\toshiba\Desktop\IUT S3\Projet\projet\Sources\Pong++\Pong++\Pong++\bin\x86\Debug\Content\brick.xnb
+C:\Users\toshiba\Desktop\IUT S3\Projet\projet\Sources\Pong++\Pong++\Pong++\bin\x86\Debug\Content\brokenBrick.xnb
+C:\Users\toshiba\Desktop\IUT S3\Projet\projet\Sources\Pong++\Pong++\Pong++\bin\x86\Debug\Content\wall.xnb
+C:\Users\toshiba\Desktop\IUT S3\Projet\projet\Sources\Pong++\Pong++\Pong++\bin\x86\Debug\Pong++.exe
+C:\Users\toshiba\Desktop\IUT S3\Projet\projet\Sources\Pong++\Pong++\Pong++\bin\x86\Debug\Pong++.pdb
+C:\Users\toshiba\Desktop\IUT S3\Projet\projet\Sources\Pong++\Pong++\Pong++\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\toshiba\Desktop\IUT S3\Projet\projet\Sources\Pong++\Pong++\Pong++\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\toshiba\Desktop\IUT S3\Projet\projet\Sources\Pong++\Pong++\Pong++\obj\x86\Debug\Pong++.exe
+C:\Users\toshiba\Desktop\IUT S3\Projet\projet\Sources\Pong++\Pong++\Pong++\obj\x86\Debug\Pong++.pdb

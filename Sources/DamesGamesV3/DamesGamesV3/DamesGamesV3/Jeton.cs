@@ -15,6 +15,10 @@ namespace DamesGamesV3
     {
         private Game1 game;
 
+        // Créations des joueurs
+        Joueur J1 = new Joueur(0, 20);
+        Joueur J2 = new Joueur(0, 20);
+
         // Couleur du jeton
         public string couleur
         {
