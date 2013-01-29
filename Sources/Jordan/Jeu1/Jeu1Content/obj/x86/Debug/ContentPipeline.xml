@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>heart.png</Source>
+      <Name>heart</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jordan\Documents\Visual Studio 2010\Projects\Projet\Jeu1\Jeu1\bin\x86\Debug\Content\heart.xnb</Output>
+      <Time>2013-01-17T15:28:26+01:00</Time>
+    </Item>
+    <Item>
+      <Source>laser1.png</Source>
+      <Name>laser1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jordan\Documents\Visual Studio 2010\Projects\Projet\Jeu1\Jeu1\bin\x86\Debug\Content\laser1.xnb</Output>
+      <Time>2013-01-23T14:15:12+01:00</Time>
+    </Item>
+    <Item>
+      <Source>laser2.png</Source>
+      <Name>laser2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jordan\Documents\Visual Studio 2010\Projects\Projet\Jeu1\Jeu1\bin\x86\Debug\Content\laser2.xnb</Output>
+      <Time>2013-01-23T14:25:14+01:00</Time>
+    </Item>
+    <Item>
+      <Source>laser3.png</Source>
+      <Name>laser3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jordan\Documents\Visual Studio 2010\Projects\Projet\Jeu1\Jeu1\bin\x86\Debug\Content\laser3.xnb</Output>
+      <Time>2013-01-23T14:25:18+01:00</Time>
+    </Item>
+    <Item>
+      <Source>laser4.png</Source>
+      <Name>laser4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jordan\Documents\Visual Studio 2010\Projects\Projet\Jeu1\Jeu1\bin\x86\Debug\Content\laser4.xnb</Output>
+      <Time>2013-01-23T14:25:22+01:00</Time>
+    </Item>
+    <Item>
+      <Source>laser5.png</Source>
+      <Name>laser5</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jordan\Documents\Visual Studio 2010\Projects\Projet\Jeu1\Jeu1\bin\x86\Debug\Content\laser5.xnb</Output>
+      <Time>2013-01-23T14:25:46+01:00</Time>
+    </Item>
+    <Item>
+      <Source>laser6.png</Source>
+      <Name>laser6</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jordan\Documents\Visual Studio 2010\Projects\Projet\Jeu1\Jeu1\bin\x86\Debug\Content\laser6.xnb</Output>
+      <Time>2013-01-23T14:25:46+01:00</Time>
+    </Item>
+    <Item>
+      <Source>vaisseau.png</Source>
+      <Name>vaisseau</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jordan\Documents\Visual Studio 2010\Projects\Projet\Jeu1\Jeu1\bin\x86\Debug\Content\vaisseau.xnb</Output>
+      <Time>2013-01-17T09:25:46+01:00</Time>
+    </Item>
+    <Item>
+      <Source>vaisseaugauche.png</Source>
+      <Name>vaisseaugauche</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jordan\Documents\Visual Studio 2010\Projects\Projet\Jeu1\Jeu1\bin\x86\Debug\Content\vaisseaugauche.xnb</Output>
+      <Time>2013-01-17T09:21:10+01:00</Time>
+    </Item>
+    <Item>
+      <Source>vaisseaudroite.png</Source>
+      <Name>vaisseaudroite</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jordan\Documents\Visual Studio 2010\Projects\Projet\Jeu1\Jeu1\bin\x86\Debug\Content\vaisseaudroite.xnb</Output>
+      <Time>2013-01-17T09:22:44+01:00</Time>
+    </Item>
+    <Item>
+      <Source>vaisseauTouche.png</Source>
+      <Name>vaisseauTouche</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jordan\Documents\Visual Studio 2010\Projects\Projet\Jeu1\Jeu1\bin\x86\Debug\Content\vaisseauTouche.xnb</Output>
+      <Time>2013-01-17T09:33:02+01:00</Time>
+    </Item>
+    <Item>
+      <Source>heartv1.png</Source>
+      <Name>heartv1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jordan\Documents\Visual Studio 2010\Projects\Projet\Jeu1\Jeu1\bin\x86\Debug\Content\heartv1.xnb</Output>
+      <Time>2013-01-17T15:26:28+01:00</Time>
+    </Item>
+    <Item>
+      <Source>heartv2.png</Source>
+      <Name>heartv2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jordan\Documents\Visual Studio 2010\Projects\Projet\Jeu1\Jeu1\bin\x86\Debug\Content\heartv2.xnb</Output>
+      <Time>2013-01-17T15:27:42+01:00</Time>
+    </Item>
+    <Item>
+      <Source>laser10.png</Source>
+      <Name>laser10</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jordan\Documents\Visual Studio 2010\Projects\Projet\Jeu1\Jeu1\bin\x86\Debug\Content\laser10.xnb</Output>
+      <Time>2013-01-23T15:35:18+01:00</Time>
+    </Item>
+    <Item>
+      <Source>laser7.png</Source>
+      <Name>laser7</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jordan\Documents\Visual Studio 2010\Projects\Projet\Jeu1\Jeu1\bin\x86\Debug\Content\laser7.xnb</Output>
+      <Time>2013-01-23T15:33:50+01:00</Time>
+    </Item>
+    <Item>
+      <Source>laser8.png</Source>
+      <Name>laser8</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jordan\Documents\Visual Studio 2010\Projects\Projet\Jeu1\Jeu1\bin\x86\Debug\Content\laser8.xnb</Output>
+      <Time>2013-01-23T15:34:14+01:00</Time>
+    </Item>
+    <Item>
+      <Source>laser9.png</Source>
+      <Name>laser9</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jordan\Documents\Visual Studio 2010\Projects\Projet\Jeu1\Jeu1\bin\x86\Debug\Content\laser9.xnb</Output>
+      <Time>2013-01-23T15:34:54+01:00</Time>
+    </Item>
+    <Item>
+      <Source>back.jpg</Source>
+      <Name>back</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jordan\Documents\Visual Studio 2010\Projects\Projet\Jeu1\Jeu1\bin\x86\Debug\Content\back.xnb</Output>
+      <Time>2013-01-23T19:32:48+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Score.spritefont</Source>
+      <Name>Score</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jordan\Documents\Visual Studio 2010\Projects\Projet\Jeu1\Jeu1\bin\x86\Debug\Content\Score.xnb</Output>
+      <Time>2013-01-29T14:07:12.8212+01:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>HiDef</TargetProfile>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>C:\Users\Jordan\Documents\Visual Studio 2010\Projects\Projet\Jeu1\Jeu1Content\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Jordan\Documents\Visual Studio 2010\Projects\Projet\Jeu1\Jeu1\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Jordan\Documents\Visual Studio 2010\Projects\Projet\Jeu1\Jeu1Content\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Jordan\Documents\Visual Studio 2010\Projects\Projet\Jeu1\Jeu1\bin\x86\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2010-08-23T13:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2010-08-23T13:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2010-08-23T13:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2010-08-23T13:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2010-08-23T13:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2010-08-23T13:41:18+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2012-12-06T18:29:01.0507586+01:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>
