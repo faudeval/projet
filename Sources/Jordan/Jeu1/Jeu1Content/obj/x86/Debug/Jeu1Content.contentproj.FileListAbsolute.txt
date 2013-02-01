@@ -1,2 +1,3 @@
 C:\Users\Jordan\Documents\Visual Studio 2010\Projects\Projet\Jeu1\Jeu1Content\obj\x86\Debug\Jeu1Content.contentprojResolveAssemblyReference.cache
 E:\Projet\Jeu1\Jeu1Content\obj\x86\Debug\Jeu1Content.contentprojResolveAssemblyReference.cache
+C:\Users\toshiba\Desktop\IUT S3\Projet\projet\Sources\Jordan\Jeu1\Jeu1Content\obj\x86\Debug\ResolveAssemblyReference.cache

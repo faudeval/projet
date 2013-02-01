@@ -20,7 +20,8 @@ namespace DamesGamesV3
         SpriteBatch spriteBatch;
         public static Game game;
 
-         // Création des variables déstinées à contenir les images des jetons
+
+        // Création des variables déstinées à contenir les images des jetons
         public Texture2D JBlanc;
         public Texture2D JNoir;
 
@@ -29,10 +30,6 @@ namespace DamesGamesV3
         public Texture2D CBlanche;
         public Texture2D CGrise;
         public Texture2D CRougeB;
-
-        //Création des listes contenant respectivement les jetons blancs et les jetons noirs
-        //public static List<Jeton> ListeJetonsBlanc = new List<Jeton>();
-        // public static List<Jeton> ListeJetonsNoir = new List<Jeton>();
 
         // Largeur de la fenêtre
         private int WindowWidth;
@@ -69,6 +66,10 @@ namespace DamesGamesV3
 
         // Tableau permettant l'affichage des cases de couleurs différentes
         public int[,] CoulGrille = new int[10, 10];
+
+        // Nos 2 Joueurs
+        Joueur J1 = new Joueur(0, 20);
+        Joueur J2 = new Joueur(0, 20);
 
         // Variables de test
         public Vector2 testAff;
@@ -121,7 +122,7 @@ namespace DamesGamesV3
             WindowHeight = Window.ClientBounds.Height;
 
             // Titre de la fenêtre
-            this.Window.Title = "Mon premier jeu de Dames !";
+            this.Window.Title = "Jeu de Dames ";
 
             base.Initialize();
         }
@@ -136,9 +137,8 @@ namespace DamesGamesV3
             spriteBatch = new SpriteBatch(GraphicsDevice);
             TestFont = Content.Load<SpriteFont>("MyFont");
 
-            // Remplissage du tableau de 100 cases (damier) 
-            // avec des Jetons différenciés par une couleur, 
-            // une position et un numéro
+            // Remplissage du tableau permettant l'affichage du damier
+            // La couleur des cases pouvant varier au grès des envies
             for (int i = 0; i < 10; i++)
             {
                 for (int j = 0; j < 10; j++)
@@ -152,27 +152,19 @@ namespace DamesGamesV3
                 }
             }
 
+            // Remplissage du tableau de Jetons
+            // Ces derniers étant différenciés par une couleur, 
+            // une position et un numéro
             for (int i = 0; i < 5; i++) 
             {
-                Grille[0, i * 2 + 1] = new Jeton("noir", JBlancWidth * (2 * i + 1), 0, Num, this);
-                Num++;
-                Grille[1, i * 2] = new Jeton("noir", JBlancWidth * (i * 2), JBlancHeight, Num, this);
-                Num++;
-                Grille[2, i * 2 + 1] = new Jeton("noir", JBlancWidth * (2 * i + 1), 2 * JBlancHeight, Num, this);
-                Num++;
-                Grille[3, i * 2] = new Jeton("noir", JBlancWidth * (i * 2), 3 * JBlancHeight, Num, this);
-                Num++;
-
-                Grille[6, i * 2 + 1] = new Jeton("blanc", (2 * i * JBlancWidth), (7 * JBlancHeight), Num, this);
-                Num++;
-                Grille[7, i * 2] = new Jeton("blanc", ((2 * i + 1) * JBlancWidth), (6 * JBlancHeight), Num, this);
-                Num++;
-                Grille[8, i * 2 + 1] = new Jeton("blanc", (2 * i * JBlancWidth), (9 * JBlancHeight), Num, this);
-                Num++;
-                Grille[9, i * 2] = new Jeton("blanc", ((2 * i + 1) * JBlancWidth), (8 * JBlancHeight), Num, this);
-                Num++;
-
-
+                Grille[0, i * 2 + 1] =  new Jeton("noir", JBlancWidth * (2 * i + 1), 0, Num++, this);
+                Grille[1, i * 2]     =  new Jeton("noir", JBlancWidth * (i * 2), JBlancHeight, Num++, this);
+                Grille[2, i * 2 + 1] =  new Jeton("noir", JBlancWidth * (2 * i + 1), 2 * JBlancHeight, Num++, this);
+                Grille[3, i * 2]     =  new Jeton("noir", JBlancWidth * (i * 2), 3 * JBlancHeight, Num++, this);
+                Grille[6, i * 2 + 1] =  new Jeton("blanc", (2 * i * JBlancWidth), (7 * JBlancHeight), Num++, this);
+                Grille[7, i * 2]     =  new Jeton("blanc", ((2 * i + 1) * JBlancWidth), (6 * JBlancHeight), Num++, this);
+                Grille[8, i * 2 + 1] =  new Jeton("blanc", (2 * i * JBlancWidth), (9 * JBlancHeight), Num++, this);
+                Grille[9, i * 2]     =  new Jeton("blanc", ((2 * i + 1) * JBlancWidth), (8 * JBlancHeight), Num++, this);
             }
         }
 
@@ -195,11 +187,16 @@ namespace DamesGamesV3
             // On quitte le jeu
             if (Keyboard.GetState().IsKeyDown(Keys.Escape))
                 this.Exit();
-
+            // Jeton 'bidon' permettant l'utilisation des méthodes de la classe Jeton
             Jeton j = new Jeton("blanc", 150, 150, 9000, this);
+
+            // Variable permettant de récupérer la position du curseur
             mouseState = Mouse.GetState();
+
+            // Booléen permettant de savoir si un jeton est sélectionné
             IsSelected = false;
 
+            // Condition principale pour le déplacement d'un jeton
             if (mouseState.LeftButton == ButtonState.Pressed && oldMouseState.LeftButton == ButtonState.Released)
             {
                 // On stocke la position actuelle du curseur
@@ -212,7 +209,6 @@ namespace DamesGamesV3
                     IsSelected = true;
                     // On récupère son numéro
                     NumJetonSelect = j.IsJetonPresent(PosXMouse, PosYMouse);
-                    mouseState = Mouse.GetState();
 
                     // mouseState.RightButton == ButtonState.Pressed
                     if (IsSelected == true)
@@ -223,59 +219,99 @@ namespace DamesGamesV3
                         NewPosXMouse = mouseState.X;
                         NewPosYMouse = mouseState.Y;
 
-                        while (Math.Abs(NewPosXMouse - PosXMouse) <= 2 && Math.Abs(NewPosYMouse - PosYMouse) <= 2)
+                        while (Math.Abs(NewPosXMouse - PosXMouse) <= 2 && Math.Abs(NewPosYMouse - PosYMouse) <= 2 && oldMouseState.LeftButton == ButtonState.Released)
                         {
+                            // Solution intermédiaire permettant 'de gagner du temps'
+                            // afin de récupérer la position du curseur une seconde fois
                             System.Threading.Thread.Sleep(1500);
                             mouseState = Mouse.GetState();
 
                             NewPosXMouse = mouseState.X;
                             NewPosYMouse = mouseState.Y;
-                        }
-                        oldMouseState = mouseState;
-                        
-                        // Valeurs des positions X et Y où le joueur souhaite déplacer son jeton
-                        int x = j.RenvoiePosX(NewPosXMouse) / JBlancWidth;
-                        int y = j.RenvoiePosY(NewPosYMouse) / JBlancHeight;
 
-                        if (j.IsJetonPresent(NewPosXMouse, NewPosYMouse) == -1 && (Math.Abs(j.RenvoiePosX(NewPosXMouse) - j.RenvoiePosX(PosXMouse)) == JBlancWidth) && (Math.Abs(j.RenvoiePosY(NewPosYMouse) - j.RenvoiePosY(PosYMouse)) == JBlancHeight))
-                        {
-                            int hey = 0;
-                            // On supprime le jeton 'NumJetonSelect'
-                            // On le redessine dans la case sélectionnée
-                            // On va donc mettre à jour la position du jeton sélectionné,
-                            // puis on va le redessiné, sans oublier de supprimer 'son ancienne image'
-                            for (int i = 0; i < 10; i++)
+                            oldMouseState = mouseState;
+                        }
+
+                        // Valeurs comprises entre 0 et 9
+                        // représentant la case ciblée par  le joueur
+                        // et l'ancienne case 
+                        int NewX = j.RenvoiePosX(NewPosXMouse);
+                        int NewY = j.RenvoiePosY(NewPosYMouse);
+                        int OldX = j.RenvoiePosX(PosXMouse);
+                        int OldY = j.RenvoiePosY(PosYMouse);
+
+                        // On vérifit qu'il n'y a pas de jeton là où le joueur souhaite déplacer son jeton
+                        // Et si le déplacement est correct (en diagonale et à une case de distance) 
+                        if (j.IsJetonPresent(NewPosXMouse, NewPosYMouse) == -1 
+                            && (Math.Abs(NewX - OldX) == JBlancWidth) 
+                            && (Math.Abs(NewY - OldY) == JBlancHeight))
+                        { 
+                            // Le cas échéant, on déplace le jeton aux coordonnées choisies
+                            if(j.DeplaceJeton(NewPosXMouse, NewPosYMouse, NumJetonSelect))
                             {
-                                for (int u = 0; u < 10; u++)
+                                
+                            }
+
+                        }
+                            
+                        // Sinon, on vérifie toujours qu'il n'y a pas de jeton,
+                        // Que le déplacement est correct (en diagonale)
+                        // Et qu'il y a bien un jeton de la couleur opposée entre les deux positions (son ancienne et sa nouvelle)
+                        else if (j.IsJetonPresent(NewPosXMouse, NewPosYMouse) == -1 
+                            && (Math.Abs(NewX - OldX) == 2 * JBlancWidth) 
+                            && (Math.Abs(NewY - OldY) == 2 * JBlancHeight))
+                        {
+                            // Le cas échéant, on déplace le jeton aux coordonnées choisies
+                            if (j.DeplaceJeton(NewPosXMouse, NewPosYMouse, NumJetonSelect))
+                            {
+                                // Si le jeton déplacé était blanc,
+                                // On supprime le jeton noir en question,
+                                // On retire un jeton au compteur du joueur des jetons noirs
+                                // Et on rajoute un point au joueur des jetons blancs
+                                if (j.CoulJeton(NumJetonSelect) == "blanc")
                                 {
-                                    if (Grille[i, u] != null)
+                                    if (((NewX / JBlancWidth) - (OldX / JBlancWidth)) == -2)
                                     {
-                                        if (Grille[i, u].num == NumJetonSelect)
-                                        {
-                                            for (int k = 0; k < 10; k++)
-                                            {
-                                                for (int l = 0; l < 10; l++)
-                                                {
-                                                    if (k == x && l == y && hey == 0)
-                                                    {
-                                                        Grille[k, l] = new Jeton(Grille[i, u].couleur, j.RenvoiePosX(NewPosXMouse), j.RenvoiePosY(NewPosYMouse), NumJetonSelect, this);
-                                                        Grille[i, u] = null;
-                                                        hey++;
-                                                    }
-                                                }
-                                            }
-                                        }
+                                        Grille[((OldX / JBlancWidth) - 1), ((OldY / JBlancHeight) - 1)] = null;
                                     }
+                                    else 
+                                    {
+                                        Grille[((OldX / JBlancWidth) + 1), ((OldY / JBlancHeight) - 1)] = null;
+                                    }
+                                    
+                                    J1.NbJetonsRestants--;
+                                    J2.point++;
+                                }
+
+                                // Si le jeton déplacé était noir,
+                                // On supprime le jeton blanc en question,
+                                // On retire un jeton au compteur du joueur des jetons blancs
+                                // Et on rajoute un point au joueur des jetons noirs
+                                else
+                                {
+                                    if (((NewX / JBlancWidth) - (OldX / JBlancWidth)) == -2)
+                                    {
+                                        Grille[((OldX / JBlancWidth) - 1), ((NewY / JBlancHeight) - 1)] = null;
+                                    }
+                                    else
+                                    {
+                                        Grille[((OldX / JBlancWidth) + 1),  ((NewY / JBlancHeight) - 1)] = null;
+                                    }
+
+                                    J2.NbJetonsRestants--;
+                                    J1.point++;
                                 }
                             }
-                           
+
                         }
+                        
                         // Le jeton a soit été déplacé, soit  le joueur souhaite déplacé un autre jeton
+                        // soit le joueur a procédé à une mauvaise sélection
                         IsSelected = false;
                     }
                 }
             }
-
+           
             oldMouseState = mouseState;
             base.Update(gameTime);
         }
@@ -290,38 +326,52 @@ namespace DamesGamesV3
             //GraphicsDevice.Clear(Color.Chocolate);
 
             spriteBatch.Begin();
-
-            for (int i = 0; i < 10; i++)
+            
+            // Tant qu'aucun joueur ne perds la partie
+            if (!J1.TuPerdsOuBien() && !J2.TuPerdsOuBien())
             {
-                for (int j = 0; j < 10; j++)
+                // On parcours le tableau d'entiers
+                // Pour afficher le damier
+                for (int i = 0; i < 10; i++)
                 {
-                    if (CoulGrille[i, j] == 0)
-                        spriteBatch.Draw(CGrise, new Rectangle(i * JBlancWidth, j * JBlancHeight, JBlancWidth, JBlancHeight), Color.White);
-                    else
-                        spriteBatch.Draw(CRougeB, new Rectangle(i * JBlancWidth, j * JBlancHeight, JBlancWidth, JBlancHeight), Color.White);
-                }
-
-            }
-
-            for(int i=0; i<10; i++) 
-            {
-                for(int j=0; j<10; j++)
-                {
-                     if (Grille[i, j] != null)
-                     {
-                        if (Grille[i, j].couleur == "noir")
-                            spriteBatch.Draw(JNoir, Grille[i, j].position, Color.White);
+                    for (int j = 0; j < 10; j++)
+                    {
+                        if (CoulGrille[i, j] == 0)
+                            spriteBatch.Draw(CGrise, new Rectangle(i * JBlancWidth, j * JBlancHeight, JBlancWidth, JBlancHeight), Color.White);
                         else
-                            spriteBatch.Draw(JBlanc, Grille[i, j].position, Color.White);
+                            spriteBatch.Draw(CRougeB, new Rectangle(i * JBlancWidth, j * JBlancHeight, JBlancWidth, JBlancHeight), Color.White);
+                    }
 
-                        // Boucle de test qui affiche le numéro de chaque jeton sur le-dit jeton
-                        testAff.X = Grille[i, j].position.X;
-                        testAff.Y = Grille[i, j].position.Y;
-                        spriteBatch.DrawString(TestFont, "" + Grille[i, j].num + "", testAff, Color.Cyan);
-                        //Console.WriteLine(Grille[i, j].num);
-                     }                   
                 }
-            }            
+
+                // On parcours le tableau de jetons 
+                // Pour afficher les jetons restants de chaque joueur
+                for (int i = 0; i < 10; i++)
+                {
+                    for (int j = 0; j < 10; j++)
+                    {
+                        if (Grille[i, j] != null)
+                        {
+                            if (Grille[i, j].couleur == "noir")
+                                spriteBatch.Draw(JNoir, Grille[i, j].position, Color.White);
+                            else
+                                spriteBatch.Draw(JBlanc, Grille[i, j].position, Color.White);
+
+                            // Boucle de test qui affiche le numéro de chaque jeton sur le-dit jeton
+                            /*testAff.X = Grille[i, j].position.X;
+                            testAff.Y = Grille[i, j].position.Y;
+                            spriteBatch.DrawString(TestFont, "" + Grille[i, j].num + "", testAff, Color.Cyan);
+                            Console.WriteLine(Grille[i, j].num); */
+                        }
+                    }
+                }
+
+                // Srites permettant d'afficher en temps réel le score de chaque joueurs
+                spriteBatch.DrawString(TestFont, "J1 : ", new Vector2(5, 0), Color.LightCyan);
+                spriteBatch.DrawString(TestFont, "" + J1.point + " pts", new Vector2(5, 25), Color.LightCyan);
+                spriteBatch.DrawString(TestFont, "J2 : ", new Vector2(WindowWidth - JBlancWidth + 5, WindowHeight - JBlancHeight), Color.LightCyan);
+                spriteBatch.DrawString(TestFont, "" + J2.point + " pts", new Vector2(WindowWidth - JBlancWidth + 5, WindowHeight - 40), Color.LightCyan);
+            }
             spriteBatch.End();
 
             base.Draw(gameTime);

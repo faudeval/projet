@@ -15,10 +15,6 @@ namespace DamesGamesV3
     {
         private Game1 game;
 
-        // Créations des joueurs
-        Joueur J1 = new Joueur(0, 20);
-        Joueur J2 = new Joueur(0, 20);
-
         // Couleur du jeton
         public string couleur
         {
@@ -26,19 +22,21 @@ namespace DamesGamesV3
             set;
         }
 
-        // rang du jeton, 2 si reine, 1 sinon
+        // Rang du jeton, 2 si reine, 1 sinon
         public int rang
         {
             get;
             set;
         }
 
+        // Numéro permettant de différencier les jetons
         public int num
         {
             get;
             set;
         }
 
+        // Position des jetons
         public Vector2 position = new Vector2(0, 0);
 
         // Constructeur d'un jeton
@@ -59,6 +57,9 @@ namespace DamesGamesV3
         {
             int numero = -1;
 
+            // Méthode qui parcours la grille où se trouvent les jetons
+            // Dès que la position (X, Y) ciblée est trouvée
+            // On renvoie le numéro du jeton correspondant
             for (int i = 0; i < 10; i++)
             {
                 for (int j = 0; j < 10; j++)
@@ -99,7 +100,7 @@ namespace DamesGamesV3
             return c;
         }
 
-        // Renvoie la postion en X du côté supérieure gauche d'une case
+        // Renvoie la postion en X de l'angle supérieure gauche d'une case
         // En fonction de la case cliquée
         public int RenvoiePosX(int PosXActu) 
         {
@@ -112,7 +113,7 @@ namespace DamesGamesV3
             return NewPosX;
         }
 
-        // Renvoie la postion en Y du côté supérieure gauche d'une case
+        // Renvoie la postion en Y de l'angle supérieure gauche d'une case
         // En fonction de la case cliquée
         public int RenvoiePosY(int PosYActu)
         {
@@ -125,6 +126,59 @@ namespace DamesGamesV3
             }
             
             return NewPosY;
+        }
+
+        // Méthode qui permet le déplacement d'un jeton
+        // Renvoie true qi le jeton a été déplacé, false sinon
+        public Boolean DeplaceJeton(int X, int Y, int numJS) 
+        {
+            Boolean res = false;
+            
+            // variable de 'sécurité', 
+            // permet d'être sur que l'on déplace 
+            // et surtout si l'on supprime un unique jeton
+            int hey = 0;
+
+            // Jeton 'bidon' permettant l'appel des méthodes de la classe Jeton
+            Jeton j = new Jeton("ROUGE", 0, 0, 99, game);
+
+            // Valeurs des positions X et Y où le joueur souhaite déplacer son jeton
+            int x = j.RenvoiePosX(X) / game.JBlancWidth;
+            int y = j.RenvoiePosY(Y) / game.JBlancHeight;
+
+            // On supprime le jeton 'NumJetonSelect'
+            // On le redessine dans la case sélectionnée
+            // On va donc mettre à jour la position du jeton sélectionné,
+            // puis on va le redessiné, sans oublier de supprimer 'son ancienne image'
+            for (int i = 0; i < 10; i++)
+            {
+                for (int u = 0; u < 10; u++)
+                {
+                    if (game.Grille[i, u] != null && hey == 0)
+                    {
+                        if (game.Grille[i, u].num == numJS && game.Grille[i, u].couleur == j.CoulJeton(numJS) && hey == 0)
+                        {
+                            for (int k = 0; k < 10; k++)
+                            {
+                                for (int l = 0; l < 10; l++)
+                                {                                  
+                                   if (k == x && l == y && hey == 0)
+                                    {
+                                        game.Grille[k, l] = new Jeton(game.Grille[i, u].couleur, j.RenvoiePosX(X), j.RenvoiePosY(Y), numJS, game);
+                                        game.Grille[i, u] = null;
+                                        hey++;
+
+                                        res = true;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                if (hey != 0)
+                    i = 10;
+            }
+            return res;
         }
     }
 }

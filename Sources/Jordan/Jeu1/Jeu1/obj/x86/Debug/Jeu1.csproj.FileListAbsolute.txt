@@ -48,3 +48,28 @@ E:\Projet\Jeu1\Jeu1\obj\x86\Debug\Jeu1.csprojResolveAssemblyReference.cache
 E:\Projet\Jeu1\Jeu1\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
 E:\Projet\Jeu1\Jeu1\obj\x86\Debug\Jeu1.exe
 E:\Projet\Jeu1\Jeu1\obj\x86\Debug\Jeu1.pdb
+C:\Users\toshiba\Desktop\IUT S3\Projet\projet\Sources\Jordan\Jeu1\Jeu1\obj\x86\Debug\Jeu1.exe
+C:\Users\toshiba\Desktop\IUT S3\Projet\projet\Sources\Jordan\Jeu1\Jeu1\obj\x86\Debug\Jeu1.pdb
+C:\Users\toshiba\Desktop\IUT S3\Projet\projet\Sources\Jordan\Jeu1\Jeu1\bin\x86\Debug\Content\heart.xnb
+C:\Users\toshiba\Desktop\IUT S3\Projet\projet\Sources\Jordan\Jeu1\Jeu1\bin\x86\Debug\Content\laser1.xnb
+C:\Users\toshiba\Desktop\IUT S3\Projet\projet\Sources\Jordan\Jeu1\Jeu1\bin\x86\Debug\Content\laser2.xnb
+C:\Users\toshiba\Desktop\IUT S3\Projet\projet\Sources\Jordan\Jeu1\Jeu1\bin\x86\Debug\Content\laser3.xnb
+C:\Users\toshiba\Desktop\IUT S3\Projet\projet\Sources\Jordan\Jeu1\Jeu1\bin\x86\Debug\Content\laser4.xnb
+C:\Users\toshiba\Desktop\IUT S3\Projet\projet\Sources\Jordan\Jeu1\Jeu1\bin\x86\Debug\Content\laser5.xnb
+C:\Users\toshiba\Desktop\IUT S3\Projet\projet\Sources\Jordan\Jeu1\Jeu1\bin\x86\Debug\Content\laser6.xnb
+C:\Users\toshiba\Desktop\IUT S3\Projet\projet\Sources\Jordan\Jeu1\Jeu1\bin\x86\Debug\Content\vaisseau.xnb
+C:\Users\toshiba\Desktop\IUT S3\Projet\projet\Sources\Jordan\Jeu1\Jeu1\bin\x86\Debug\Content\vaisseaugauche.xnb
+C:\Users\toshiba\Desktop\IUT S3\Projet\projet\Sources\Jordan\Jeu1\Jeu1\bin\x86\Debug\Content\vaisseaudroite.xnb
+C:\Users\toshiba\Desktop\IUT S3\Projet\projet\Sources\Jordan\Jeu1\Jeu1\bin\x86\Debug\Content\vaisseauTouche.xnb
+C:\Users\toshiba\Desktop\IUT S3\Projet\projet\Sources\Jordan\Jeu1\Jeu1\bin\x86\Debug\Content\heartv1.xnb
+C:\Users\toshiba\Desktop\IUT S3\Projet\projet\Sources\Jordan\Jeu1\Jeu1\bin\x86\Debug\Content\heartv2.xnb
+C:\Users\toshiba\Desktop\IUT S3\Projet\projet\Sources\Jordan\Jeu1\Jeu1\bin\x86\Debug\Content\laser10.xnb
+C:\Users\toshiba\Desktop\IUT S3\Projet\projet\Sources\Jordan\Jeu1\Jeu1\bin\x86\Debug\Content\laser7.xnb
+C:\Users\toshiba\Desktop\IUT S3\Projet\projet\Sources\Jordan\Jeu1\Jeu1\bin\x86\Debug\Content\laser8.xnb
+C:\Users\toshiba\Desktop\IUT S3\Projet\projet\Sources\Jordan\Jeu1\Jeu1\bin\x86\Debug\Content\laser9.xnb
+C:\Users\toshiba\Desktop\IUT S3\Projet\projet\Sources\Jordan\Jeu1\Jeu1\bin\x86\Debug\Content\back.xnb
+C:\Users\toshiba\Desktop\IUT S3\Projet\projet\Sources\Jordan\Jeu1\Jeu1\bin\x86\Debug\Content\Score.xnb
+C:\Users\toshiba\Desktop\IUT S3\Projet\projet\Sources\Jordan\Jeu1\Jeu1\bin\x86\Debug\Jeu1.exe
+C:\Users\toshiba\Desktop\IUT S3\Projet\projet\Sources\Jordan\Jeu1\Jeu1\bin\x86\Debug\Jeu1.pdb
+C:\Users\toshiba\Desktop\IUT S3\Projet\projet\Sources\Jordan\Jeu1\Jeu1\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\toshiba\Desktop\IUT S3\Projet\projet\Sources\Jordan\Jeu1\Jeu1\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
