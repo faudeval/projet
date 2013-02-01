@@ -1,0 +1,8 @@
+C:\Users\Antoine\Desktop\TestInterface\TestInterface\bin\Release\TestInterface.exe
+C:\Users\Antoine\Desktop\TestInterface\TestInterface\bin\Release\TestInterface.pdb
+C:\Users\Antoine\Desktop\TestInterface\TestInterface\obj\x86\Release\TestInterface.Interface.resources
+C:\Users\Antoine\Desktop\TestInterface\TestInterface\obj\x86\Release\TestInterface.LoginForm.resources
+C:\Users\Antoine\Desktop\TestInterface\TestInterface\obj\x86\Release\TestInterface.Properties.Resources.resources
+C:\Users\Antoine\Desktop\TestInterface\TestInterface\obj\x86\Release\TestInterface.csproj.GenerateResource.Cache
+C:\Users\Antoine\Desktop\TestInterface\TestInterface\obj\x86\Release\TestInterface.exe
+C:\Users\Antoine\Desktop\TestInterface\TestInterface\obj\x86\Release\TestInterface.pdb

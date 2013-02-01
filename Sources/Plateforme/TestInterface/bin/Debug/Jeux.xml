@@ -1,0 +1,16 @@
+<Jeux>
+	<Jeu>
+		<Nom>Avoid Ray</Nom>
+		<Icone>avoid.png</Icone>
+		<Executable>AvoidRay</Executable>
+		<Description>OMG il est pas a jour</Description>
+		<Version>1</Version>
+	</Jeu>
+	<Jeu>
+		<Nom>Pong</Nom>
+		<Icone>pong.png</Icone>
+		<Executable>Pong++</Executable>
+		<Description>Lui non plus... TROLOLO</Description>
+		<Version>1</Version>
+	</Jeu>
+</Jeux>   
