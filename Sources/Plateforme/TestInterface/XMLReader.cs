@@ -128,6 +128,7 @@ namespace TestInterface
             /*            }
                         catch (Exception e)
                         { Console.WriteLine("Erreur : {0}", e.Message); } // Fichier non trouvé*/
+            textReader.Close();
             return games;
         }
     }

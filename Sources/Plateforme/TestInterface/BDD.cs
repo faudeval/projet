@@ -34,7 +34,7 @@ namespace TestInterface
                     ds.Load(dr, LoadOption.OverwriteChanges, columnsToRetrieve);
                 }
             }
-            catch (Exception e)
+            catch (Exception sarlon)
             { ds = null; }
             return ds;
         }

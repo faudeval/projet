@@ -7,20 +7,26 @@ using System.Reflection;
 
 namespace TestInterface
 {
-    enum InstallState { Installed, UpdateAvailable, NotInstalled, Installing }
+    enum InstallState { Installed, UpdateAvailable, NotInstalled, Installing, UpToDate }
     class Game
     {
-        string icone;
+        string icon;
+        InstallState install;
         public int Version { get; set; }
         public String Description { get; private set; }
         public String Name { get; private set; }
         public String Executable { get; private set; }
-        public InstallState Install { get; set; }
+        public InstallState Install
+        {
+            get { return install; }
+            set { install = value; Interface.ReloadListView(); }
+        }
         public String Icon
         {
-            get { return (Install != InstallState.NotInstalled ? @"icons\" : @"remoteIcons\") + icone; }
-            private set { icone = value; }
+            get { return (Install != InstallState.NotInstalled ? @"icons\" : "") + icon; }
+            private set { icon = value; }
         }
+        public string RealIcon { get { return icon; } }
         public string BaseName
         {
             get
@@ -48,6 +54,7 @@ namespace TestInterface
             this.Executable = executablePath;
             this.Description = description;
             this.Install = installed;
+            this.Version = version;
         }
 
 #if DEBUG
@@ -80,6 +87,8 @@ namespace TestInterface
                     return "Téléchargement en cours...";
                 case InstallState.UpdateAvailable:
                     return "Mise à jour disponible";
+                case InstallState.UpToDate :
+                    return "Jeu à jour";
                 default:
                     return "Pas installé";
             }

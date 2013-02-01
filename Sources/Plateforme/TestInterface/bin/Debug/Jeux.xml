@@ -1,23 +1,16 @@
 <Jeux>
 	<Jeu>
-		<Nom>Pong++</Nom>
-		<Icone>Pong++.png</Icone>
-		<Executable>Pong++</Executable>
-		<Description>Un jeu de pong trop swag</Description>
-		<Version>1</Version>
-	</Jeu>
-	<Jeu>
-		<Nom>Asteroids</Nom>
-		<Icone>Asteroids.png</Icone>
-		<Executable>Asteroids</Executable>
-		<Description>Un jeu de asteroid trop swag</Description>
-		<Version>1</Version>
-	</Jeu>
-	<Jeu>
 		<Nom>Avoid Ray</Nom>
-		<Icone>Avoid.png</Icone>
+		<Icone>avoid.png</Icone>
 		<Executable>AvoidRay</Executable>
-		<Description>Un jeu de mots trop swag</Description>
+		<Description>OMG il est pas a jour</Description>
+		<Version>1</Version>
+	</Jeu>
+	<Jeu>
+		<Nom>Pong</Nom>
+		<Icone>pong.png</Icone>
+		<Executable>Pong++</Executable>
+		<Description>Lui non plus... TROLOLO</Description>
 		<Version>1</Version>
 	</Jeu>
 </Jeux>
