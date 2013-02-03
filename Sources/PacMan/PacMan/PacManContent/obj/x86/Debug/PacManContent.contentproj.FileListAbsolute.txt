@@ -1,0 +1,2 @@
+C:\Users\Antoine\Projet\PacMan\PacMan\PacManContent\obj\x86\Debug\PacManContent.contentprojResolveAssemblyReference.cache
+C:\Users\Antoine\Desktop\XNA Projets Actuels\PacMan\PacMan\PacManContent\obj\x86\Debug\PacManContent.contentprojResolveAssemblyReference.cache

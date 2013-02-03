@@ -1,0 +1,28 @@
+C:\Users\Antoine\Projet\PacMan\PacMan\PacMan\bin\x86\Debug\PacMan.exe
+C:\Users\Antoine\Projet\PacMan\PacMan\PacMan\bin\x86\Debug\PacMan.pdb
+C:\Users\Antoine\Projet\PacMan\PacMan\PacMan\obj\x86\Debug\PacMan.csprojResolveAssemblyReference.cache
+C:\Users\Antoine\Projet\PacMan\PacMan\PacMan\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Antoine\Projet\PacMan\PacMan\PacMan\obj\x86\Debug\PacMan.exe
+C:\Users\Antoine\Projet\PacMan\PacMan\PacMan\obj\x86\Debug\PacMan.pdb
+C:\Users\Antoine\Projet\PacMan\PacMan\PacMan\bin\x86\Debug\Content\map.xnb
+C:\Users\Antoine\Projet\PacMan\PacMan\PacMan\bin\x86\Debug\Content\mur.xnb
+C:\Users\Antoine\Projet\PacMan\PacMan\PacMan\bin\x86\Debug\Content\pacman.xnb
+C:\Users\Antoine\Projet\PacMan\PacMan\PacMan\bin\x86\Debug\Content\fear.xnb
+C:\Users\Antoine\Projet\PacMan\PacMan\PacMan\bin\x86\Debug\Content\ghost1.xnb
+C:\Users\Antoine\Projet\PacMan\PacMan\PacMan\bin\x86\Debug\Content\ghost2.xnb
+C:\Users\Antoine\Projet\PacMan\PacMan\PacMan\bin\x86\Debug\Content\ghost3.xnb
+C:\Users\Antoine\Projet\PacMan\PacMan\PacMan\bin\x86\Debug\Content\ghost4.xnb
+C:\Users\Antoine\Desktop\XNA Projets Actuels\PacMan\PacMan\PacMan\bin\x86\Debug\Content\map.xnb
+C:\Users\Antoine\Desktop\XNA Projets Actuels\PacMan\PacMan\PacMan\bin\x86\Debug\Content\mur.xnb
+C:\Users\Antoine\Desktop\XNA Projets Actuels\PacMan\PacMan\PacMan\bin\x86\Debug\Content\pacman.xnb
+C:\Users\Antoine\Desktop\XNA Projets Actuels\PacMan\PacMan\PacMan\bin\x86\Debug\Content\fear.xnb
+C:\Users\Antoine\Desktop\XNA Projets Actuels\PacMan\PacMan\PacMan\bin\x86\Debug\Content\ghost1.xnb
+C:\Users\Antoine\Desktop\XNA Projets Actuels\PacMan\PacMan\PacMan\bin\x86\Debug\Content\ghost2.xnb
+C:\Users\Antoine\Desktop\XNA Projets Actuels\PacMan\PacMan\PacMan\bin\x86\Debug\Content\ghost3.xnb
+C:\Users\Antoine\Desktop\XNA Projets Actuels\PacMan\PacMan\PacMan\bin\x86\Debug\Content\ghost4.xnb
+C:\Users\Antoine\Desktop\XNA Projets Actuels\PacMan\PacMan\PacMan\bin\x86\Debug\PacMan.exe
+C:\Users\Antoine\Desktop\XNA Projets Actuels\PacMan\PacMan\PacMan\bin\x86\Debug\PacMan.pdb
+C:\Users\Antoine\Desktop\XNA Projets Actuels\PacMan\PacMan\PacMan\obj\x86\Debug\PacMan.csprojResolveAssemblyReference.cache
+C:\Users\Antoine\Desktop\XNA Projets Actuels\PacMan\PacMan\PacMan\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Antoine\Desktop\XNA Projets Actuels\PacMan\PacMan\PacMan\obj\x86\Debug\PacMan.exe
+C:\Users\Antoine\Desktop\XNA Projets Actuels\PacMan\PacMan\PacMan\obj\x86\Debug\PacMan.pdb

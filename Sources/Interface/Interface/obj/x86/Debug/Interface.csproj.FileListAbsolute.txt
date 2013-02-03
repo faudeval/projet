@@ -1,0 +1,9 @@
+C:\Users\Antoine\Desktop\TestInterface\Interface\bin\Debug\TestInterface.exe
+C:\Users\Antoine\Desktop\TestInterface\Interface\bin\Debug\TestInterface.pdb
+C:\Users\Antoine\Desktop\TestInterface\Interface\obj\x86\Debug\Interface.csprojResolveAssemblyReference.cache
+C:\Users\Antoine\Desktop\TestInterface\Interface\obj\x86\Debug\TestInterface.Interface.resources
+C:\Users\Antoine\Desktop\TestInterface\Interface\obj\x86\Debug\TestInterface.LoginForm.resources
+C:\Users\Antoine\Desktop\TestInterface\Interface\obj\x86\Debug\TestInterface.Properties.Resources.resources
+C:\Users\Antoine\Desktop\TestInterface\Interface\obj\x86\Debug\Interface.csproj.GenerateResource.Cache
+C:\Users\Antoine\Desktop\TestInterface\Interface\obj\x86\Debug\TestInterface.exe
+C:\Users\Antoine\Desktop\TestInterface\Interface\obj\x86\Debug\TestInterface.pdb
