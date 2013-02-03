@@ -1,6 +1,0 @@
-Content\DuckHunt\cible.xnb
-Content\DuckHunt\reticule_final.xnb
-Content\Pong\balle.xnb
-Content\Pong\raquette.xnb
-Content\DuckHunt\police.xnb
-Content\Pong\SpriteFont1.xnb
