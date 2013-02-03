@@ -74,7 +74,7 @@ namespace TestInterface
 
         public static bool IsPlayable(Game g)
         {
-            return g.Install == InstallState.Installed || g.Install == InstallState.UpdateAvailable;
+            return g.Install == InstallState.Installed || g.Install == InstallState.UpdateAvailable || g.Install == InstallState.UpToDate;
         }
 
         public string IState()

@@ -17,3 +17,12 @@ C:\Users\Antoine\Desktop\TestInterface\TestInterface\obj\x86\Debug\TestInterface
 C:\Users\Antoine\Desktop\TestInterface\TestInterface\obj\x86\Debug\TestInterface.Properties.Resources.resources
 C:\Users\Antoine\Desktop\TestInterface\TestInterface\obj\x86\Debug\TestInterface.csproj.GenerateResource.Cache
 C:\Users\Antoine\Desktop\TestInterface\TestInterface\obj\x86\Debug\TestInterface.csprojResolveAssemblyReference.cache
+C:\Users\Antoine\Documents\Projet S3\git\Sources\Plateforme\TestInterface\obj\x86\Debug\TestInterface.exe
+C:\Users\Antoine\Documents\Projet S3\git\Sources\Plateforme\TestInterface\obj\x86\Debug\TestInterface.pdb
+C:\Users\Antoine\Documents\Projet S3\git\Sources\Plateforme\TestInterface\bin\Debug\TestInterface.exe
+C:\Users\Antoine\Documents\Projet S3\git\Sources\Plateforme\TestInterface\bin\Debug\TestInterface.pdb
+C:\Users\Antoine\Documents\Projet S3\git\Sources\Plateforme\TestInterface\obj\x86\Debug\TestInterface.csprojResolveAssemblyReference.cache
+C:\Users\Antoine\Documents\Projet S3\git\Sources\Plateforme\TestInterface\obj\x86\Debug\TestInterface.Interface.resources
+C:\Users\Antoine\Documents\Projet S3\git\Sources\Plateforme\TestInterface\obj\x86\Debug\TestInterface.LoginForm.resources
+C:\Users\Antoine\Documents\Projet S3\git\Sources\Plateforme\TestInterface\obj\x86\Debug\TestInterface.Properties.Resources.resources
+C:\Users\Antoine\Documents\Projet S3\git\Sources\Plateforme\TestInterface\obj\x86\Debug\TestInterface.csproj.GenerateResource.Cache

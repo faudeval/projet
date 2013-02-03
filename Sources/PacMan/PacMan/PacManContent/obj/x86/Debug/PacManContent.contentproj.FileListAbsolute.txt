@@ -1,2 +1,0 @@
-Q:\PacMan\PacMan\PacManContent\obj\x86\Debug\ResolveAssemblyReference.cache
-H:\Documents\PacMan\PacMan\PacManContent\obj\x86\Debug\ResolveAssemblyReference.cache
