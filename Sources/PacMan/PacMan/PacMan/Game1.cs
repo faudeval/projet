@@ -19,7 +19,7 @@ namespace PacMan
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
 
-        List<Sprite> sprites;
+        List<MobileSprite> mobileSprites;
         Level level;
 
         public Game1()
@@ -37,7 +37,7 @@ namespace PacMan
         protected override void Initialize()
         {
             // TODO: Add your initialization logic here
-            sprites = new List<Sprite>();
+            mobileSprites = new List<MobileSprite>();
             base.Initialize();
         }
 
@@ -57,9 +57,10 @@ namespace PacMan
             this.level = new Level();
             this.level.AddTexture(Content.Load<Texture2D>("mur")); //0
             this.level.AddTexture(Content.Load<Texture2D>("map")); //1
+            this.level.AddTexture(Content.Load<Texture2D>("porte")); //2
 
             // Chargement du PACMAN
-            this.sprites.Add(new Pacman(Content.Load<Texture2D>("pacman"), level));
+            this.mobileSprites.Add(new Pacman(Content.Load<Texture2D>("pacman"), level));
         }
 
         /// <summary>
@@ -84,8 +85,8 @@ namespace PacMan
 
             // TODO: Add your update logic here
             //this.pacMan.CheckDecorCollision(this.level);
-            foreach (Sprite s in this.sprites)
-                s.Update(gameTime);
+            foreach (MobileSprite ms in this.mobileSprites)
+                ms.Update(gameTime);
             base.Update(gameTime);
         }
 
@@ -100,8 +101,8 @@ namespace PacMan
             // TODO: Add your drawing code here
             this.spriteBatch.Begin();
             this.level.Draw(spriteBatch);
-            foreach(Sprite s in this.sprites)
-                s.Draw(this.spriteBatch);
+            foreach(MobileSprite ms in this.mobileSprites)
+                ms.Draw(this.spriteBatch);
             this.spriteBatch.End();
 
             base.Draw(gameTime);

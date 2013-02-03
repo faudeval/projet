@@ -26,3 +26,4 @@ C:\Users\Antoine\Desktop\XNA Projets Actuels\PacMan\PacMan\PacMan\obj\x86\Debug\
 C:\Users\Antoine\Desktop\XNA Projets Actuels\PacMan\PacMan\PacMan\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
 C:\Users\Antoine\Desktop\XNA Projets Actuels\PacMan\PacMan\PacMan\obj\x86\Debug\PacMan.exe
 C:\Users\Antoine\Desktop\XNA Projets Actuels\PacMan\PacMan\PacMan\obj\x86\Debug\PacMan.pdb
+C:\Users\Antoine\Desktop\XNA Projets Actuels\PacMan\PacMan\PacMan\bin\x86\Debug\Content\porte.xnb

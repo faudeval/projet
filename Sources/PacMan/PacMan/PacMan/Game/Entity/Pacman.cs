@@ -8,14 +8,14 @@ using Microsoft.Xna.Framework;
 
 namespace PacMan
 {
-    class Pacman : Sprite
+    class Pacman : MobileSprite
     {
         // Etats du clavier
         private KeyboardState keyboardState;
 
         public Pacman(Texture2D texture, Level level)
             : base(texture, level.StartingPosition, level)
-        { }
+        { velocity = 100; }
 
         public override void Update(GameTime gameTime)
         {
@@ -30,29 +30,13 @@ namespace PacMan
             bool RIGHT = this.keyboardState.IsKeyDown(Keys.Right);
 
             if (UP)
-            {
-                Direction = -Vector2.UnitY;
-                this.velocity = 100f;
-                this.rotation = -(float)Math.PI / 2;
-            }
+                NextDirection = -Vector2.UnitY;
             else if (DOWN)
-            {
-                Direction = Vector2.UnitY;
-                this.velocity = 100f;
-                this.rotation = (float)Math.PI / 2;
-            }
+                NextDirection = Vector2.UnitY;
             else if (LEFT)
-            {
-                Direction = -Vector2.UnitX;
-                this.velocity = 100f;
-                this.rotation = (float)Math.PI;
-            }
+                NextDirection = -Vector2.UnitX;
             else if (RIGHT)
-            {
-                Direction = Vector2.UnitX;
-                this.velocity = 100f;
-                this.rotation = 0;
-            }
+                NextDirection = Vector2.UnitX;
         }
     }
 }
