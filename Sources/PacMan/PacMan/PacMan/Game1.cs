@@ -50,8 +50,6 @@ namespace PacMan
             // Create a new SpriteBatch, which can be used to draw textures.
             spriteBatch = new SpriteBatch(GraphicsDevice);
 
-
-
             // TODO: use this.Content to load your game content here
             // Chargement de la MAP
             this.level = new Level();
@@ -61,6 +59,10 @@ namespace PacMan
 
             // Chargement du PACMAN
             this.mobileSprites.Add(new Pacman(Content.Load<Texture2D>("pacman"), level));
+            this.mobileSprites.Add(new Ghost(new Texture2D[2] { Content.Load<Texture2D>("ghost1"), Content.Load<Texture2D>("fear") }, level.StartingPosition - Vector2.UnitY * 6 * Level.TILE_HEIGHT, level));
+            this.mobileSprites.Add(new Ghost(new Texture2D[2] { Content.Load<Texture2D>("ghost2"), Content.Load<Texture2D>("fear") }, level.StartingPosition - Vector2.UnitY * 6 * Level.TILE_HEIGHT, level));
+            this.mobileSprites.Add(new Ghost(new Texture2D[2] { Content.Load<Texture2D>("ghost3"), Content.Load<Texture2D>("fear") }, level.StartingPosition - Vector2.UnitY * 6 * Level.TILE_HEIGHT, level));
+            this.mobileSprites.Add(new Ghost(new Texture2D[2] { Content.Load<Texture2D>("ghost4"), Content.Load<Texture2D>("fear") }, level.StartingPosition - Vector2.UnitY * 6 * Level.TILE_HEIGHT, level));
         }
 
         /// <summary>
@@ -100,7 +102,7 @@ namespace PacMan
 
             // TODO: Add your drawing code here
             this.spriteBatch.Begin();
-            this.level.Draw(spriteBatch);
+            this.level.Draw(this.spriteBatch);
             foreach(MobileSprite ms in this.mobileSprites)
                 ms.Draw(this.spriteBatch);
             this.spriteBatch.End();

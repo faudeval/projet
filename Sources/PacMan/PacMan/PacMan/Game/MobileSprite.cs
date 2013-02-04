@@ -14,6 +14,7 @@ namespace PacMan
         #region Fields
         protected Vector2 direction;
         protected Vector2 nextDirection;
+        protected bool isBlocked;
 
         protected float velocity;
         protected float rotation;
@@ -36,29 +37,30 @@ namespace PacMan
         #region Initialization
         public MobileSprite(Texture2D texture, Vector2 position, Level level) : base(texture, position, level)
         {
-            rotation = 0;
-            velocity = 0;
+            this.rotation = 0;
+            this.velocity = 0;
         }
         #endregion
 
         #region Update & Draw
         public override void Update(GameTime gameTime)
         {
-            if (direction != nextDirection && !level.IsOut(this.position + this.nextDirection, this is Pacman))
+            this.isBlocked = false;
+            if (this.direction != this.nextDirection && !this.level.IsOut(this.position + this.nextDirection, this is Pacman))
             {
-                Direction = NextDirection;
-                rotation = (float)Math.Atan2(Direction.X, -Direction.Y) - (float)(Math.PI / 2);
+                this.Direction = this.NextDirection;
+                this.rotation = (float)Math.Atan2(this.Direction.X, -this.Direction.Y) - (float)(Math.PI / 2);
             }
 
             Vector2 nextPosition = this.position + this.velocity * this.direction * (float)gameTime.ElapsedGameTime.TotalSeconds;
-            if (!level.IsOut(nextPosition, this is Pacman))
+            if (!this.level.IsOut(nextPosition, this is Pacman))
                 this.position = nextPosition;
             else
             {
-                if (nextPosition.X < level.Teleport[0].X)
-                    this.position = level.Teleport[1];
-                else if (nextPosition.X > level.Teleport[1].X)
-                    this.position = level.Teleport[0];
+                if (nextPosition.X < this.level.Teleport[0].X)
+                    this.position = this.level.Teleport[1];
+                else if (nextPosition.X > this.level.Teleport[1].X)
+                    this.position = this.level.Teleport[0];
                 else
                 {
                     if (this.direction == Vector2.UnitX) // Si on va vers la droite
@@ -69,8 +71,9 @@ namespace PacMan
                         nextPosition = new Vector2(this.position.X, ((int)(this.position.Y / 16) + 1) * 16); // On se colle contre le bord bas
                     else if (this.direction == -Vector2.UnitY) // Si on va vers le haut
                         nextPosition = new Vector2(this.position.X, ((int)(this.position.Y / 16)) * 16); // On se colle contre le bord haut
-                    if (!level.IsOut(nextPosition, this is Pacman))
+                    if (!this.level.IsOut(nextPosition, this is Pacman))
                         this.position = nextPosition;
+                    this.isBlocked = true;
                 }
             }
         }
