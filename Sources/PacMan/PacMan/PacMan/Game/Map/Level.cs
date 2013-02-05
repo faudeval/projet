@@ -101,5 +101,18 @@ namespace PacMan
                     Map[bot, left] == 1 ||
                     Map[bot, right] == 1); // True si l'un des côtés est dans le décor, false sinon
         }
+
+        /*
+        public bool seePath(Vector2 position, Vector2 direction, bool front = true)
+        {
+            bool ret = false;
+
+            int top = (int)((int)position.Y / TILE_HEIGHT);
+            int left = (int)((int)position.X / TILE_WIDTH);
+            int bot = (int)(((int)position.Y + TILE_HEIGHT - 1) / TILE_HEIGHT);
+            int right = (int)(((int)position.X + TILE_WIDTH - 1) / TILE_WIDTH);
+
+            return ret;
+        }*/
     }
 }

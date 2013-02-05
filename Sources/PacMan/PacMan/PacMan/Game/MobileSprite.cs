@@ -15,6 +15,7 @@ namespace PacMan
         protected Vector2 direction;
         protected Vector2 nextDirection;
         protected bool isBlocked;
+        protected bool readyToTurn;
 
         protected float velocity;
         protected float rotation;
@@ -37,6 +38,7 @@ namespace PacMan
         #region Initialization
         public MobileSprite(Texture2D texture, Vector2 position, Level level) : base(texture, position, level)
         {
+            this.readyToTurn = false;
             this.rotation = 0;
             this.velocity = 0;
         }
@@ -46,22 +48,29 @@ namespace PacMan
         public override void Update(GameTime gameTime)
         {
             this.isBlocked = false;
-            if (this.direction != this.nextDirection && !this.level.IsOut(this.position + this.nextDirection, this is Pacman))
-            {
-                this.Direction = this.NextDirection;
-                this.rotation = (float)Math.Atan2(this.Direction.X, -this.Direction.Y) - (float)(Math.PI / 2);
+            if (this.direction != this.nextDirection)
+            {/*
+                if (readyToTurn)
+                {
+                    if(this.level.seePath(this.position, this.direction)
+                }*/
+                if (!this.level.IsOut(this.position + this.nextDirection, this is Pacman)) // Si la direction est différente de celle demandée, et qu'il est possible de tourner
+                {
+                    this.Direction = this.NextDirection;
+                    this.rotation = (float)Math.Atan2(this.Direction.X, -this.Direction.Y) - (float)(Math.PI / 2);
+                }
             }
 
             Vector2 nextPosition = this.position + this.velocity * this.direction * (float)gameTime.ElapsedGameTime.TotalSeconds;
-            if (!this.level.IsOut(nextPosition, this is Pacman))
+            if (!this.level.IsOut(nextPosition, this is Pacman)) // Si la position visée est possible
                 this.position = nextPosition;
             else
             {
-                if (nextPosition.X < this.level.Teleport[0].X)
+                if (nextPosition.X < this.level.Teleport[0].X) // Si la position visée est après le point de téléport 0
                     this.position = this.level.Teleport[1];
-                else if (nextPosition.X > this.level.Teleport[1].X)
+                else if (nextPosition.X > this.level.Teleport[1].X) // Si la position visée est après le point de téléport 1
                     this.position = this.level.Teleport[0];
-                else
+                else // Sinon (la position demandée est dans le mur)
                 {
                     if (this.direction == Vector2.UnitX) // Si on va vers la droite
                         nextPosition = new Vector2(((int)(this.position.X / 16) + 1) * 16, this.position.Y); // On se colle contre le bord droit

@@ -19,8 +19,18 @@ namespace PacMan
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
 
+        Texture2D textureGum, textureSuperGum;
+        TimeSpan startInvincibility = TimeSpan.MinValue;
+
         List<MobileSprite> mobileSprites;
+        List<Gum> gums;
         Level level;
+        int points = 0;
+        /* Calcul des points :
+         * 10 pour chaque gum
+         * 50 pour chaque super gum
+         * 200 - 400 - 800 - 1600 pour les fantomes vulnerables mangés
+         */
 
         public Game1()
         {
@@ -37,7 +47,19 @@ namespace PacMan
         protected override void Initialize()
         {
             // TODO: Add your initialization logic here
-            mobileSprites = new List<MobileSprite>();
+            this.level = new Level();
+            this.mobileSprites = new List<MobileSprite>();
+            this.gums = new List<Gum>();
+
+            for (int y = 0; y < this.level.Height; y++)
+            {
+                for (int x = 0; x < this.level.Width; x++)
+                {
+                    if (this.level.Map[y, x] == 0 && (y != 9 || (x != 8 && x != 9 && x != 10)))
+                        this.gums.Add(new Gum(new Vector2(x * Level.TILE_WIDTH, y * Level.TILE_HEIGHT), false));
+                }
+            }
+
             base.Initialize();
         }
 
@@ -52,17 +74,22 @@ namespace PacMan
 
             // TODO: use this.Content to load your game content here
             // Chargement de la MAP
-            this.level = new Level();
             this.level.AddTexture(Content.Load<Texture2D>("mur")); //0
             this.level.AddTexture(Content.Load<Texture2D>("map")); //1
             this.level.AddTexture(Content.Load<Texture2D>("porte")); //2
 
             // Chargement du PACMAN
             this.mobileSprites.Add(new Pacman(Content.Load<Texture2D>("pacman"), level));
+
+            // Chargement des Fantômes
             this.mobileSprites.Add(new Ghost(new Texture2D[2] { Content.Load<Texture2D>("ghost1"), Content.Load<Texture2D>("fear") }, level.StartingPosition - Vector2.UnitY * 6 * Level.TILE_HEIGHT, level));
             this.mobileSprites.Add(new Ghost(new Texture2D[2] { Content.Load<Texture2D>("ghost2"), Content.Load<Texture2D>("fear") }, level.StartingPosition - Vector2.UnitY * 6 * Level.TILE_HEIGHT, level));
             this.mobileSprites.Add(new Ghost(new Texture2D[2] { Content.Load<Texture2D>("ghost3"), Content.Load<Texture2D>("fear") }, level.StartingPosition - Vector2.UnitY * 6 * Level.TILE_HEIGHT, level));
             this.mobileSprites.Add(new Ghost(new Texture2D[2] { Content.Load<Texture2D>("ghost4"), Content.Load<Texture2D>("fear") }, level.StartingPosition - Vector2.UnitY * 6 * Level.TILE_HEIGHT, level));
+
+            // Chargement des (super-)gum
+            this.textureGum = Content.Load<Texture2D>("gum");
+            this.textureSuperGum = Content.Load<Texture2D>("superGum");
         }
 
         /// <summary>
@@ -85,10 +112,23 @@ namespace PacMan
             if (Keyboard.GetState().IsKeyDown(Keys.Escape))
                 this.Exit();
 
-            // TODO: Add your update logic here
-            //this.pacMan.CheckDecorCollision(this.level);
             foreach (MobileSprite ms in this.mobileSprites)
+            {
                 ms.Update(gameTime);
+                if(ms is Pacman)
+                {
+                    // Optimisation possible ?
+                    foreach(Gum g in gums)
+                    {
+                        if(g.Alive && g.MapPosition == ms.MapPosition)
+                        {
+                            points += g.Activate();
+                            if(g.Super)
+                                startInvincibility = gameTime.TotalGameTime;
+                        }
+                    }
+                }
+            }
             base.Update(gameTime);
         }
 
@@ -103,8 +143,18 @@ namespace PacMan
             // TODO: Add your drawing code here
             this.spriteBatch.Begin();
             this.level.Draw(this.spriteBatch);
+
+            foreach (Gum g in gums)
+            {
+                if (g.Alive)
+                {
+                    spriteBatch.Draw(g.Super ? textureSuperGum : textureGum, g.Position, Color.White);
+                }
+            }
+
             foreach(MobileSprite ms in this.mobileSprites)
                 ms.Draw(this.spriteBatch);
+
             this.spriteBatch.End();
 
             base.Draw(gameTime);

@@ -7,10 +7,26 @@ using Microsoft.Xna.Framework;
 
 namespace PacMan
 {
-    class Gum : Sprite
+    class Gum
     {
-        public Gum(Texture2D texture, Vector2 position, Level level)
-            : base(texture, position, level)
-        { }
+        public bool Alive { get; private set; }
+        public bool Super { get; private set; }
+        public Vector2 Position { get; private set; }
+        public Vector2 MapPosition { get { return new Vector2((int)(Position.X / Level.TILE_WIDTH), (int)(Position.Y / Level.TILE_HEIGHT)); } }
+        public Gum(Vector2 position, bool isSuper)
+        {
+            Position = position;
+            this.Alive = true;
+            this.Super = isSuper;
+        }
+
+        public int Activate()
+        {
+            Alive = false;
+            if (Super)
+                return 50;
+            else
+                return 10;
+        }
     }
 }
