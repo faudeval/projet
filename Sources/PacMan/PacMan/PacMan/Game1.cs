@@ -22,6 +22,9 @@ namespace PacMan
         List<MobileSprite> mobileSprites;
         Level level;
 
+        // Conteur de "points de vie" du pacman
+        int LP = 3;
+
         public Game1()
         {
             graphics = new GraphicsDeviceManager(this);
@@ -82,10 +85,24 @@ namespace PacMan
         protected override void Update(GameTime gameTime)
         {
             // Allows the game to exit
-            if (Keyboard.GetState().IsKeyDown(Keys.Escape))
+            if (Keyboard.GetState().IsKeyDown(Keys.Escape) && LP >= 0)
                 this.Exit();
 
             // TODO: Add your update logic here
+            foreach(MobileSprite m in mobileSprites)
+            {
+                if (m.ToString() == "PacMan.Pacman")
+                {
+                    foreach(MobileSprite m2 in mobileSprites)
+                    {
+                        if (m2.ToString() == "PacMan.Ghost")
+                            if (m2.HitBox.Intersects(m.HitBox)) ;
+                                //m.Position = level.StartingPosition;
+                    }
+                }
+            }
+
+            Console.WriteLine(LP);
             //this.pacMan.CheckDecorCollision(this.level);
             foreach (MobileSprite ms in this.mobileSprites)
                 ms.Update(gameTime);

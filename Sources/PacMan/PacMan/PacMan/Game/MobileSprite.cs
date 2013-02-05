@@ -32,6 +32,12 @@ namespace PacMan
             get { return this.nextDirection; }
             set { this.nextDirection = Vector2.Normalize(value); }
         }
+
+        public Rectangle HitBox 
+        {
+            get { return new Rectangle((int)this.position.X, (int)this.position.Y, 16, 16); }
+            set {}
+        }
         #endregion
 
         #region Initialization

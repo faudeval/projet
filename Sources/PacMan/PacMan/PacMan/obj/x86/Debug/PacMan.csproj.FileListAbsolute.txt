@@ -27,3 +27,18 @@ C:\Users\Antoine\Desktop\XNA Projets Actuels\PacMan\PacMan\PacMan\obj\x86\Debug\
 C:\Users\Antoine\Desktop\XNA Projets Actuels\PacMan\PacMan\PacMan\obj\x86\Debug\PacMan.exe
 C:\Users\Antoine\Desktop\XNA Projets Actuels\PacMan\PacMan\PacMan\obj\x86\Debug\PacMan.pdb
 C:\Users\Antoine\Desktop\XNA Projets Actuels\PacMan\PacMan\PacMan\bin\x86\Debug\Content\porte.xnb
+C:\Users\toshiba\Desktop\IUT S3\Projet\projet\Sources\PacMan\PacMan\PacMan\bin\x86\Debug\Content\map.xnb
+C:\Users\toshiba\Desktop\IUT S3\Projet\projet\Sources\PacMan\PacMan\PacMan\bin\x86\Debug\Content\mur.xnb
+C:\Users\toshiba\Desktop\IUT S3\Projet\projet\Sources\PacMan\PacMan\PacMan\bin\x86\Debug\Content\pacman.xnb
+C:\Users\toshiba\Desktop\IUT S3\Projet\projet\Sources\PacMan\PacMan\PacMan\bin\x86\Debug\Content\fear.xnb
+C:\Users\toshiba\Desktop\IUT S3\Projet\projet\Sources\PacMan\PacMan\PacMan\bin\x86\Debug\Content\ghost1.xnb
+C:\Users\toshiba\Desktop\IUT S3\Projet\projet\Sources\PacMan\PacMan\PacMan\bin\x86\Debug\Content\ghost2.xnb
+C:\Users\toshiba\Desktop\IUT S3\Projet\projet\Sources\PacMan\PacMan\PacMan\bin\x86\Debug\Content\ghost3.xnb
+C:\Users\toshiba\Desktop\IUT S3\Projet\projet\Sources\PacMan\PacMan\PacMan\bin\x86\Debug\Content\ghost4.xnb
+C:\Users\toshiba\Desktop\IUT S3\Projet\projet\Sources\PacMan\PacMan\PacMan\bin\x86\Debug\Content\porte.xnb
+C:\Users\toshiba\Desktop\IUT S3\Projet\projet\Sources\PacMan\PacMan\PacMan\bin\x86\Debug\PacMan.exe
+C:\Users\toshiba\Desktop\IUT S3\Projet\projet\Sources\PacMan\PacMan\PacMan\bin\x86\Debug\PacMan.pdb
+C:\Users\toshiba\Desktop\IUT S3\Projet\projet\Sources\PacMan\PacMan\PacMan\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\toshiba\Desktop\IUT S3\Projet\projet\Sources\PacMan\PacMan\PacMan\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\toshiba\Desktop\IUT S3\Projet\projet\Sources\PacMan\PacMan\PacMan\obj\x86\Debug\PacMan.exe
+C:\Users\toshiba\Desktop\IUT S3\Projet\projet\Sources\PacMan\PacMan\PacMan\obj\x86\Debug\PacMan.pdb
