@@ -115,7 +115,6 @@ namespace PacMan
             if (Keyboard.GetState().IsKeyDown(Keys.Escape) && LP >= 0)
                 this.Exit();
 
-<<<<<<< HEAD
             // TODO: Add your update logic here
             foreach(MobileSprite m in mobileSprites)
             {
@@ -132,8 +131,6 @@ namespace PacMan
 
             Console.WriteLine(LP);
             //this.pacMan.CheckDecorCollision(this.level);
-=======
->>>>>>> e1981ed01379d5013e0e21ea1a81fcfe5934c1f1
             foreach (MobileSprite ms in this.mobileSprites)
             {
                 ms.Update(gameTime);
