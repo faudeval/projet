@@ -31,6 +31,7 @@ namespace PacMan
             set { this.scale = value; }
         }
         public bool IsActive { get; set; }
+        public Vector2 MapPosition { get { return new Vector2((int)(Position.X / Level.TILE_WIDTH + 0.5f), (int)(Position.Y / Level.TILE_HEIGHT + 0.5f)); } }
 
         public Sprite(Texture2D texture, Vector2 position, Level level)
         {

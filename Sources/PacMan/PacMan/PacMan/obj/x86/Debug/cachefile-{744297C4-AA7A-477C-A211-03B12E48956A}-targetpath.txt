@@ -7,3 +7,5 @@ Content\ghost2.xnb
 Content\ghost3.xnb
 Content\ghost4.xnb
 Content\porte.xnb
+Content\gum.xnb
+Content\superGum.xnb

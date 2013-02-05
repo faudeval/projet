@@ -27,6 +27,7 @@ C:\Users\Antoine\Desktop\XNA Projets Actuels\PacMan\PacMan\PacMan\obj\x86\Debug\
 C:\Users\Antoine\Desktop\XNA Projets Actuels\PacMan\PacMan\PacMan\obj\x86\Debug\PacMan.exe
 C:\Users\Antoine\Desktop\XNA Projets Actuels\PacMan\PacMan\PacMan\obj\x86\Debug\PacMan.pdb
 C:\Users\Antoine\Desktop\XNA Projets Actuels\PacMan\PacMan\PacMan\bin\x86\Debug\Content\porte.xnb
+<<<<<<< HEAD
 C:\Users\toshiba\Desktop\IUT S3\Projet\projet\Sources\PacMan\PacMan\PacMan\bin\x86\Debug\Content\map.xnb
 C:\Users\toshiba\Desktop\IUT S3\Projet\projet\Sources\PacMan\PacMan\PacMan\bin\x86\Debug\Content\mur.xnb
 C:\Users\toshiba\Desktop\IUT S3\Projet\projet\Sources\PacMan\PacMan\PacMan\bin\x86\Debug\Content\pacman.xnb
@@ -42,3 +43,7 @@ C:\Users\toshiba\Desktop\IUT S3\Projet\projet\Sources\PacMan\PacMan\PacMan\obj\x
 C:\Users\toshiba\Desktop\IUT S3\Projet\projet\Sources\PacMan\PacMan\PacMan\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
 C:\Users\toshiba\Desktop\IUT S3\Projet\projet\Sources\PacMan\PacMan\PacMan\obj\x86\Debug\PacMan.exe
 C:\Users\toshiba\Desktop\IUT S3\Projet\projet\Sources\PacMan\PacMan\PacMan\obj\x86\Debug\PacMan.pdb
+=======
+C:\Users\Antoine\Desktop\XNA Projets Actuels\PacMan\PacMan\PacMan\bin\x86\Debug\Content\gum.xnb
+C:\Users\Antoine\Desktop\XNA Projets Actuels\PacMan\PacMan\PacMan\bin\x86\Debug\Content\superGum.xnb
+>>>>>>> e1981ed01379d5013e0e21ea1a81fcfe5934c1f1
